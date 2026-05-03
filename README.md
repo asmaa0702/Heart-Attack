@@ -104,3 +104,14 @@ Some important insights derived from the analysis include:
 **Amal Mahmoud**
 
 ***
+## Excel Project (till the problem with git get solved): [Link](https://drive.google.com/drive/folders/1xu7XkC9bDAchqBM4y-OontBZGSo49gDT)
+### -The Habits Dashboard: This explains how habits affect the heart's health. Like, 40% of people with high-level ``stress`` have heart attacks.
+<img width="1285" height="551" alt="image" src="https://github.com/user-attachments/assets/4f68e91f-a964-4236-b391-e02d869b27d9" />
+
+### -The Biological Dashboard: this explains how the biological side affects the heart's health. Like, 2-Elderly with hypertension have higher heart attack rates. 
+<img width="1339" height="445" alt="image" src="https://github.com/user-attachments/assets/167ffa77-49dc-4433-b089-229cfe860446" />
+
+### -The Advice section: We offer pieces of advice to be followed to be protected against heart attacks.
+<img width="1641" height="473" alt="image" src="https://github.com/user-attachments/assets/5b893716-0ae5-4188-9ca4-c0e3655d20ee" />
+
+
