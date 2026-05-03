@@ -6,7 +6,7 @@ Heart disease is one of the leading causes of mortality worldwide, and early ris
 This project focuses on **analyzing and predicting heart attack risk among individuals** using a comprehensive dataset that combines medical, behavioral, and demographic factors.
 
 The goal is to **explore patterns, identify key risk factors, and provide insightful visual analytics** that support data-driven decision making in healthcare.
-🔗 **Dataset Source:** [Link](https://www.kaggle.com/datasets/ankushpanday2/heart-attack-prediction-in-indonesia)
+ **Dataset Source:** [Link](https://www.kaggle.com/datasets/ankushpanday2/heart-attack-prediction-in-indonesia)
 ***
 
 ## Dataset Description
@@ -58,7 +58,7 @@ participated_in_free_screening: Participation in free medical screening programs
 
 
 
-## 📈 Project Scope & Analysis
+##  Project Scope & Analysis
 
 This project mainly focuses on:
 
@@ -76,7 +76,7 @@ This project mainly focuses on:
 
 ***
 
-## 🧠 Key Insights
+##  Key Insights
 
 Some important insights derived from the analysis include:
 
@@ -88,7 +88,7 @@ Some important insights derived from the analysis include:
 
 ***
 
-## 👥 Team Members
+##  Team Members
 
 *   **أسماء محمد علي**
 *   **روان محمد حسين**
@@ -99,7 +99,7 @@ Some important insights derived from the analysis include:
 
 ***
 
-## 👩‍🏫 Instructor
+##  Instructor
 
 **Amal Mahmoud**
 
