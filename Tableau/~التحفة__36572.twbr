@@ -1,0 +1,3150 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20262.26.0603.1643                               -->
+<workbook original-version='18.1' source-build='2026.2.0 (20262.26.0603.1643)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <BasicButtonObject />
+    <BasicButtonObjectTextSupport />
+    <_.fcp.DashboardRoundedCorners.true...DashboardRoundedCorners />
+    <Extensions />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+    <ZoneFriendlyName />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Heart_attck_cleaned (2)' inline='true' name='federated.1fxkgg81by847n1bvohzz1ulpt4s' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Heart_attck_cleaned' name='textscan.04a7lvq08i2kmk10mibv71vdx8cj'>
+            <connection class='textscan' directory='C:/Users/DT/OneDrive - Faculty of Computer and Information Sciences (Ain Shams University)/yat/archive' filename='Heart_attck_cleaned.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.04a7lvq08i2kmk10mibv71vdx8cj' name='Heart_attck_cleaned.csv' table='[Heart_attck_cleaned#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='age' ordinal='0' />
+            <column datatype='string' name='gender' ordinal='1' />
+            <column datatype='string' name='region' ordinal='2' />
+            <column datatype='string' name='income_level' ordinal='3' />
+            <column datatype='integer' name='hypertension' ordinal='4' />
+            <column datatype='integer' name='diabetes' ordinal='5' />
+            <column datatype='integer' name='cholesterol_level' ordinal='6' />
+            <column datatype='integer' name='obesity' ordinal='7' />
+            <column datatype='integer' name='waist_circumference' ordinal='8' />
+            <column datatype='integer' name='family_history' ordinal='9' />
+            <column datatype='string' name='smoking_status' ordinal='10' />
+            <column datatype='string' name='physical_activity' ordinal='11' />
+            <column datatype='string' name='dietary_habits' ordinal='12' />
+            <column datatype='string' name='air_pollution_exposure' ordinal='13' />
+            <column datatype='string' name='stress_level' ordinal='14' />
+            <column datatype='real' name='sleep_hours' ordinal='15' />
+            <column datatype='integer' name='blood_pressure_systolic' ordinal='16' />
+            <column datatype='integer' name='blood_pressure_diastolic' ordinal='17' />
+            <column datatype='integer' name='fasting_blood_sugar' ordinal='18' />
+            <column datatype='integer' name='cholesterol_hdl' ordinal='19' />
+            <column datatype='integer' name='cholesterol_ldl' ordinal='20' />
+            <column datatype='integer' name='triglycerides' ordinal='21' />
+            <column datatype='string' name='EKG_results' ordinal='22' />
+            <column datatype='integer' name='previous_heart_disease' ordinal='23' />
+            <column datatype='integer' name='medication_usage' ordinal='24' />
+            <column datatype='integer' name='participated_in_free_screening' ordinal='25' />
+            <column datatype='integer' name='heart_attack' ordinal='26' />
+            <column datatype='string' name='age_class' ordinal='27' />
+            <column datatype='string' name='waist_class' ordinal='28' />
+            <column datatype='string' name='bp_systolic_class' ordinal='29' />
+            <column datatype='string' name='bp_diastolic_class' ordinal='30' />
+            <column datatype='string' name='fasting_class' ordinal='31' />
+            <column datatype='string' name='cholesterol_class' ordinal='32' />
+            <column datatype='string' name='ldl_class' ordinal='33' />
+            <column datatype='string' name='hdl_class' ordinal='34' />
+            <column datatype='string' name='triglycerides_class' ordinal='35' />
+            <column datatype='string' name='sleep_class' ordinal='36' />
+            <column datatype='integer' name='risk_score' ordinal='37' />
+            <column datatype='integer' name='metabolic_syndrome' ordinal='38' />
+            <column datatype='integer' name='lifestyle_score' ordinal='39' />
+            <column datatype='integer' name='stress_risk' ordinal='40' />
+            <column datatype='string' name='heart_risk_group' ordinal='41' />
+            <column datatype='integer' name='diabetes_obesity' ordinal='42' />
+            <column datatype='integer' name='smoking_stress' ordinal='43' />
+            <column datatype='real' name='tg_hdl_ratio' ordinal='44' />
+            <column datatype='integer' name='pulse_pressure' ordinal='45' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Heart_attck_cleaned.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[age]</local-name>
+            <parent-name>[Heart_attck_cleaned.csv]</parent-name>
+            <remote-alias>age</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gender</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[gender]</local-name>
+            <parent-name>[Heart_attck_cleaned.csv]</parent-name>
+            <remote-alias>gender</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>region</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[region]</local-name>
+            <parent-name>[Heart_attck_cleaned.csv]</parent-name>
+            <remote-alias>region</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>income_level</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[income_level]</local-name>
+            <parent-name>[Heart_attck_cleaned.csv]</parent-name>
+            <remote-alias>income_level</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hypertension</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[hypertension]</local-name>
+            <parent-name>[Heart_attck_cleaned.csv]</parent-name>
+            <remote-alias>hypertension</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>diabetes</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[diabetes]</local-name>
+            <parent-name>[Heart_attck_cleaned.csv]</parent-name>
+            <remote-alias>diabetes</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cholesterol_level</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[cholesterol_level]</local-name>
+            <parent-name>[Heart_attck_cleaned.csv]</parent-name>
+            <remote-alias>cholesterol_level</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>obesity</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[obesity]</local-name>
+            <parent-name>[Heart_attck_cleaned.csv]</parent-name>
+            <remote-alias>obesity</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>waist_circumference</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[waist_circumference]</local-name>
+            <parent-name>[Heart_attck_cleaned.csv]</parent-name>
+            <remote-alias>waist_circumference</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>family_history</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[family_history]</local-name>
+            <parent-name>[Heart_attck_cleaned.csv]</parent-name>
+            <remote-alias>family_history</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>smoking_status</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[smoking_status]</local-name>
+            <parent-name>[Heart_attck_cleaned.csv]</parent-name>
+            <remote-alias>smoking_status</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>physical_activity</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[physical_activity]</local-name>
+            <parent-name>[Heart_attck_cleaned.csv]</parent-name>
+            <remote-alias>physical_activity</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dietary_habits</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[dietary_habits]</local-name>
+            <parent-name>[Heart_attck_cleaned.csv]</parent-name>
+            <remote-alias>dietary_habits</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>air_pollution_exposure</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[air_pollution_exposure]</local-name>
+            <parent-name>[Heart_attck_cleaned.csv]</parent-name>
+            <remote-alias>air_pollution_exposure</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stress_level</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[stress_level]</local-name>
+            <parent-name>[Heart_attck_cleaned.csv]</parent-name>
+            <remote-alias>stress_level</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sleep_hours</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[sleep_hours]</local-name>
+            <parent-name>[Heart_attck_cleaned.csv]</parent-name>
+            <remote-alias>sleep_hours</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>blood_pressure_systolic</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[blood_pressure_systolic]</local-name>
+            <parent-name>[Heart_attck_cleaned.csv]</parent-name>
+            <remote-alias>blood_pressure_systolic</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>blood_pressure_diastolic</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[blood_pressure_diastolic]</local-name>
+            <parent-name>[Heart_attck_cleaned.csv]</parent-name>
+            <remote-alias>blood_pressure_diastolic</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>fasting_blood_sugar</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[fasting_blood_sugar]</local-name>
+            <parent-name>[Heart_attck_cleaned.csv]</parent-name>
+            <remote-alias>fasting_blood_sugar</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cholesterol_hdl</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[cholesterol_hdl]</local-name>
+            <parent-name>[Heart_attck_cleaned.csv]</parent-name>
+            <remote-alias>cholesterol_hdl</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cholesterol_ldl</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[cholesterol_ldl]</local-name>
+            <parent-name>[Heart_attck_cleaned.csv]</parent-name>
+            <remote-alias>cholesterol_ldl</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>triglycerides</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[triglycerides]</local-name>
+            <parent-name>[Heart_attck_cleaned.csv]</parent-name>
+            <remote-alias>triglycerides</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EKG_results</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[EKG_results]</local-name>
+            <parent-name>[Heart_attck_cleaned.csv]</parent-name>
+            <remote-alias>EKG_results</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>previous_heart_disease</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[previous_heart_disease]</local-name>
+            <parent-name>[Heart_attck_cleaned.csv]</parent-name>
+            <remote-alias>previous_heart_disease</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>medication_usage</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[medication_usage]</local-name>
+            <parent-name>[Heart_attck_cleaned.csv]</parent-name>
+            <remote-alias>medication_usage</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>participated_in_free_screening</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[participated_in_free_screening]</local-name>
+            <parent-name>[Heart_attck_cleaned.csv]</parent-name>
+            <remote-alias>participated_in_free_screening</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>heart_attack</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[heart_attack]</local-name>
+            <parent-name>[Heart_attck_cleaned.csv]</parent-name>
+            <remote-alias>heart_attack</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>age_class</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[age_class]</local-name>
+            <parent-name>[Heart_attck_cleaned.csv]</parent-name>
+            <remote-alias>age_class</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>waist_class</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[waist_class]</local-name>
+            <parent-name>[Heart_attck_cleaned.csv]</parent-name>
+            <remote-alias>waist_class</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>bp_systolic_class</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[bp_systolic_class]</local-name>
+            <parent-name>[Heart_attck_cleaned.csv]</parent-name>
+            <remote-alias>bp_systolic_class</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>bp_diastolic_class</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[bp_diastolic_class]</local-name>
+            <parent-name>[Heart_attck_cleaned.csv]</parent-name>
+            <remote-alias>bp_diastolic_class</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>fasting_class</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[fasting_class]</local-name>
+            <parent-name>[Heart_attck_cleaned.csv]</parent-name>
+            <remote-alias>fasting_class</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cholesterol_class</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[cholesterol_class]</local-name>
+            <parent-name>[Heart_attck_cleaned.csv]</parent-name>
+            <remote-alias>cholesterol_class</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ldl_class</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ldl_class]</local-name>
+            <parent-name>[Heart_attck_cleaned.csv]</parent-name>
+            <remote-alias>ldl_class</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hdl_class</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[hdl_class]</local-name>
+            <parent-name>[Heart_attck_cleaned.csv]</parent-name>
+            <remote-alias>hdl_class</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>triglycerides_class</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[triglycerides_class]</local-name>
+            <parent-name>[Heart_attck_cleaned.csv]</parent-name>
+            <remote-alias>triglycerides_class</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sleep_class</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[sleep_class]</local-name>
+            <parent-name>[Heart_attck_cleaned.csv]</parent-name>
+            <remote-alias>sleep_class</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>risk_score</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[risk_score]</local-name>
+            <parent-name>[Heart_attck_cleaned.csv]</parent-name>
+            <remote-alias>risk_score</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>metabolic_syndrome</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[metabolic_syndrome]</local-name>
+            <parent-name>[Heart_attck_cleaned.csv]</parent-name>
+            <remote-alias>metabolic_syndrome</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>lifestyle_score</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[lifestyle_score]</local-name>
+            <parent-name>[Heart_attck_cleaned.csv]</parent-name>
+            <remote-alias>lifestyle_score</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>stress_risk</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[stress_risk]</local-name>
+            <parent-name>[Heart_attck_cleaned.csv]</parent-name>
+            <remote-alias>stress_risk</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>heart_risk_group</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[heart_risk_group]</local-name>
+            <parent-name>[Heart_attck_cleaned.csv]</parent-name>
+            <remote-alias>heart_risk_group</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>diabetes_obesity</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[diabetes_obesity]</local-name>
+            <parent-name>[Heart_attck_cleaned.csv]</parent-name>
+            <remote-alias>diabetes_obesity</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>smoking_stress</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[smoking_stress]</local-name>
+            <parent-name>[Heart_attck_cleaned.csv]</parent-name>
+            <remote-alias>smoking_stress</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tg_hdl_ratio</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[tg_hdl_ratio]</local-name>
+            <parent-name>[Heart_attck_cleaned.csv]</parent-name>
+            <remote-alias>tg_hdl_ratio</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pulse_pressure</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[pulse_pressure]</local-name>
+            <parent-name>[Heart_attck_cleaned.csv]</parent-name>
+            <remote-alias>pulse_pressure</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='heart_attack_str' datatype='string' name='[Calculation_2513227402211329]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF [heart_attack] = 0 THEN &quot;No&quot; ELSE &quot;Yes&quot; END' />
+      </column>
+      <column caption='Diabetes_str' datatype='string' name='[Calculation_2513227430150146]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF [diabetes] = 0 THEN &quot;No&quot; ELSE &quot;Yes&quot; END' />
+      </column>
+      <column caption='Obesity_str' datatype='string' name='[Calculation_2513227441213443]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF [obesity] = 0 THEN &quot;No&quot; ELSE &quot;Yes&quot; END' />
+      </column>
+      <column caption='EKG results' datatype='string' name='[EKG_results]' role='dimension' type='nominal' />
+      <column caption='Heart_attck_cleaned.csv' datatype='table' name='[__tableau_internal_object_id__].[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]' role='measure' type='quantitative' />
+      <column caption='Age' datatype='integer' name='[age]' role='measure' type='quantitative' />
+      <column caption='Age Class' datatype='string' name='[age_class]' role='dimension' type='nominal' />
+      <column caption='Air Pollution Exposure' datatype='string' name='[air_pollution_exposure]' role='dimension' type='nominal' />
+      <column caption='Blood Pressure Diastolic' datatype='integer' name='[blood_pressure_diastolic]' role='measure' type='quantitative' />
+      <column caption='Blood Pressure Systolic' datatype='integer' name='[blood_pressure_systolic]' role='measure' type='quantitative' />
+      <column caption='Bp Diastolic Class' datatype='string' name='[bp_diastolic_class]' role='dimension' type='nominal' />
+      <column caption='Bp Systolic Class' datatype='string' name='[bp_systolic_class]' role='dimension' type='nominal' />
+      <column caption='Cholesterol Class' datatype='string' name='[cholesterol_class]' role='dimension' type='nominal' />
+      <column caption='Cholesterol Hdl' datatype='integer' name='[cholesterol_hdl]' role='measure' type='quantitative' />
+      <column caption='Cholesterol Ldl' datatype='integer' name='[cholesterol_ldl]' role='measure' type='quantitative' />
+      <column caption='Cholesterol Level' datatype='integer' name='[cholesterol_level]' role='measure' type='quantitative' />
+      <column caption='Diabetes' datatype='integer' name='[diabetes]' role='measure' type='quantitative' />
+      <column caption='Diabetes Obesity' datatype='integer' name='[diabetes_obesity]' role='measure' type='quantitative' />
+      <column caption='Dietary Habits' datatype='string' name='[dietary_habits]' role='dimension' type='nominal' />
+      <column caption='Family History' datatype='integer' name='[family_history]' role='measure' type='quantitative' />
+      <column caption='Fasting Blood Sugar' datatype='integer' name='[fasting_blood_sugar]' role='measure' type='quantitative' />
+      <column caption='Fasting Class' datatype='string' name='[fasting_class]' role='dimension' type='nominal' />
+      <column caption='Gender' datatype='string' name='[gender]' role='dimension' type='nominal' />
+      <column caption='Hdl Class' datatype='string' name='[hdl_class]' role='dimension' type='nominal' />
+      <column caption='Heart Attack' datatype='integer' name='[heart_attack]' role='measure' type='quantitative' />
+      <column caption='Heart Risk Group' datatype='string' name='[heart_risk_group]' role='dimension' type='nominal' />
+      <column caption='Hypertension' datatype='integer' name='[hypertension]' role='measure' type='quantitative' />
+      <column caption='Income Level' datatype='string' name='[income_level]' role='dimension' type='nominal' />
+      <column caption='Ldl Class' datatype='string' name='[ldl_class]' role='dimension' type='nominal' />
+      <column caption='Lifestyle Score' datatype='integer' name='[lifestyle_score]' role='measure' type='quantitative' />
+      <column caption='Medication Usage' datatype='integer' name='[medication_usage]' role='measure' type='quantitative' />
+      <column caption='Metabolic Syndrome' datatype='integer' name='[metabolic_syndrome]' role='measure' type='quantitative' />
+      <column caption='Obesity' datatype='integer' name='[obesity]' role='measure' type='quantitative' />
+      <column caption='Participated In Free Screening' datatype='integer' name='[participated_in_free_screening]' role='measure' type='quantitative' />
+      <column caption='Physical Activity' datatype='string' name='[physical_activity]' role='dimension' type='nominal' />
+      <column caption='Previous Heart Disease' datatype='integer' name='[previous_heart_disease]' role='measure' type='quantitative' />
+      <column caption='Pulse Pressure' datatype='integer' name='[pulse_pressure]' role='measure' type='quantitative' />
+      <column caption='Region' datatype='string' name='[region]' role='dimension' type='nominal' />
+      <column caption='Risk Score' datatype='integer' name='[risk_score]' role='measure' type='quantitative' />
+      <column caption='Sleep Class' datatype='string' name='[sleep_class]' role='dimension' type='nominal' />
+      <column caption='Sleep Hours' datatype='real' name='[sleep_hours]' role='measure' type='quantitative' />
+      <column caption='Smoking Status' datatype='string' name='[smoking_status]' role='dimension' type='nominal' />
+      <column caption='Smoking Stress' datatype='integer' name='[smoking_stress]' role='measure' type='quantitative' />
+      <column caption='Stress Level' datatype='string' name='[stress_level]' role='dimension' type='nominal' />
+      <column caption='Stress Risk' datatype='integer' name='[stress_risk]' role='measure' type='quantitative' />
+      <column caption='Tg Hdl Ratio' datatype='real' name='[tg_hdl_ratio]' role='measure' type='quantitative' />
+      <column caption='Triglycerides' datatype='integer' name='[triglycerides]' role='measure' type='quantitative' />
+      <column caption='Triglycerides Class' datatype='string' name='[triglycerides_class]' role='dimension' type='nominal' />
+      <column caption='Waist Circumference' datatype='integer' name='[waist_circumference]' role='measure' type='quantitative' />
+      <column caption='Waist Class' datatype='string' name='[waist_class]' role='dimension' type='nominal' />
+      <column-instance column='[heart_attack]' derivation='Attribute' name='[attr:heart_attack:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[heart_attack]' derivation='Count' name='[cnt:heart_attack:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_2513227441213443]' derivation='None' name='[none:Calculation_2513227441213443:nk]' pivot='key' type='nominal' />
+      <column-instance column='[gender]' derivation='None' name='[none:gender:nk]' pivot='key' type='nominal' />
+      <column-instance column='[heart_attack]' derivation='None' name='[none:heart_attack:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[heart_attack]' derivation='None' name='[none:heart_attack:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[heart_attack]' derivation='Count' name='[pcdf:cnt:heart_attack:qk]' pivot='key' type='quantitative'>
+        <table-calc diff-options='Relative' ordering-type='Columns' type='PctDiff'>
+          <address>
+            <value>-1</value>
+          </address>
+        </table-calc>
+      </column-instance>
+      <column-instance column='[heart_attack]' derivation='Count' name='[pcto:cnt:heart_attack:qk:12]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Field' type='PctTotal'>
+          <order field='[federated.1fxkgg81by847n1bvohzz1ulpt4s].[none:Calculation_2513227441213443:nk]' />
+          <order field='[federated.1fxkgg81by847n1bvohzz1ulpt4s].[none:heart_attack:ok]' />
+        </table-calc>
+      </column-instance>
+      <column-instance column='[heart_attack]' derivation='Count' name='[pcto:cnt:heart_attack:qk:8]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Columns' type='PctTotal' />
+      </column-instance>
+      <extract count='-1' enabled='true' object-id='' units='records' user-specific='false'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='Data/TableauTemp/#TableauTemp_0yxx4um18mv8ua18cql891cn664h.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='07/02/2026 12:21:46 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>age</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[age]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>age</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Heart_attck_cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>113</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>gender</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[gender]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>gender</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Heart_attck_cleaned.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>region</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[region]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>region</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Heart_attck_cleaned.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>income_level</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[income_level]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>income_level</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Heart_attck_cleaned.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>hypertension</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[hypertension]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>hypertension</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Heart_attck_cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>diabetes</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[diabetes]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>diabetes</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Heart_attck_cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>cholesterol_level</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[cholesterol_level]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>cholesterol_level</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Heart_attck_cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>519</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>obesity</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[obesity]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>obesity</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Heart_attck_cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>waist_circumference</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[waist_circumference]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>waist_circumference</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Heart_attck_cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>241</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>family_history</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[family_history]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>family_history</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Heart_attck_cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>smoking_status</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[smoking_status]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>smoking_status</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Heart_attck_cleaned.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>physical_activity</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[physical_activity]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>physical_activity</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Heart_attck_cleaned.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>dietary_habits</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[dietary_habits]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>dietary_habits</remote-alias>
+              <ordinal>12</ordinal>
+              <family>Heart_attck_cleaned.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>air_pollution_exposure</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[air_pollution_exposure]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>air_pollution_exposure</remote-alias>
+              <ordinal>13</ordinal>
+              <family>Heart_attck_cleaned.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>stress_level</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[stress_level]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>stress_level</remote-alias>
+              <ordinal>14</ordinal>
+              <family>Heart_attck_cleaned.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>sleep_hours</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[sleep_hours]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>sleep_hours</remote-alias>
+              <ordinal>15</ordinal>
+              <family>Heart_attck_cleaned.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>134941</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>blood_pressure_systolic</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[blood_pressure_systolic]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>blood_pressure_systolic</remote-alias>
+              <ordinal>16</ordinal>
+              <family>Heart_attck_cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>237</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>blood_pressure_diastolic</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[blood_pressure_diastolic]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>blood_pressure_diastolic</remote-alias>
+              <ordinal>17</ordinal>
+              <family>Heart_attck_cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>106</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>fasting_blood_sugar</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[fasting_blood_sugar]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>fasting_blood_sugar</remote-alias>
+              <ordinal>18</ordinal>
+              <family>Heart_attck_cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>203</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>cholesterol_hdl</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[cholesterol_hdl]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>cholesterol_hdl</remote-alias>
+              <ordinal>19</ordinal>
+              <family>Heart_attck_cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>119</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>cholesterol_ldl</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[cholesterol_ldl]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>cholesterol_ldl</remote-alias>
+              <ordinal>20</ordinal>
+              <family>Heart_attck_cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>459</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>triglycerides</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[triglycerides]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>triglycerides</remote-alias>
+              <ordinal>21</ordinal>
+              <family>Heart_attck_cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>595</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>EKG_results</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[EKG_results]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>EKG_results</remote-alias>
+              <ordinal>22</ordinal>
+              <family>Heart_attck_cleaned.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>previous_heart_disease</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[previous_heart_disease]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>previous_heart_disease</remote-alias>
+              <ordinal>23</ordinal>
+              <family>Heart_attck_cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>medication_usage</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[medication_usage]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>medication_usage</remote-alias>
+              <ordinal>24</ordinal>
+              <family>Heart_attck_cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>participated_in_free_screening</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[participated_in_free_screening]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>participated_in_free_screening</remote-alias>
+              <ordinal>25</ordinal>
+              <family>Heart_attck_cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>heart_attack</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[heart_attack]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>heart_attack</remote-alias>
+              <ordinal>26</ordinal>
+              <family>Heart_attck_cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>age_class</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[age_class]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>age_class</remote-alias>
+              <ordinal>27</ordinal>
+              <family>Heart_attck_cleaned.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>waist_class</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[waist_class]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>waist_class</remote-alias>
+              <ordinal>28</ordinal>
+              <family>Heart_attck_cleaned.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>bp_systolic_class</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[bp_systolic_class]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>bp_systolic_class</remote-alias>
+              <ordinal>29</ordinal>
+              <family>Heart_attck_cleaned.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>bp_diastolic_class</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[bp_diastolic_class]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>bp_diastolic_class</remote-alias>
+              <ordinal>30</ordinal>
+              <family>Heart_attck_cleaned.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>fasting_class</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[fasting_class]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>fasting_class</remote-alias>
+              <ordinal>31</ordinal>
+              <family>Heart_attck_cleaned.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>cholesterol_class</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[cholesterol_class]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>cholesterol_class</remote-alias>
+              <ordinal>32</ordinal>
+              <family>Heart_attck_cleaned.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ldl_class</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[ldl_class]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ldl_class</remote-alias>
+              <ordinal>33</ordinal>
+              <family>Heart_attck_cleaned.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>hdl_class</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[hdl_class]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>hdl_class</remote-alias>
+              <ordinal>34</ordinal>
+              <family>Heart_attck_cleaned.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>triglycerides_class</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[triglycerides_class]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>triglycerides_class</remote-alias>
+              <ordinal>35</ordinal>
+              <family>Heart_attck_cleaned.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>sleep_class</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[sleep_class]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>sleep_class</remote-alias>
+              <ordinal>36</ordinal>
+              <family>Heart_attck_cleaned.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>risk_score</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[risk_score]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>risk_score</remote-alias>
+              <ordinal>37</ordinal>
+              <family>Heart_attck_cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>metabolic_syndrome</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[metabolic_syndrome]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>metabolic_syndrome</remote-alias>
+              <ordinal>38</ordinal>
+              <family>Heart_attck_cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>lifestyle_score</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[lifestyle_score]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>lifestyle_score</remote-alias>
+              <ordinal>39</ordinal>
+              <family>Heart_attck_cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>stress_risk</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[stress_risk]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>stress_risk</remote-alias>
+              <ordinal>40</ordinal>
+              <family>Heart_attck_cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>heart_risk_group</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[heart_risk_group]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>heart_risk_group</remote-alias>
+              <ordinal>41</ordinal>
+              <family>Heart_attck_cleaned.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>diabetes_obesity</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[diabetes_obesity]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>diabetes_obesity</remote-alias>
+              <ordinal>42</ordinal>
+              <family>Heart_attck_cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>smoking_stress</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[smoking_stress]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>smoking_stress</remote-alias>
+              <ordinal>43</ordinal>
+              <family>Heart_attck_cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>tg_hdl_ratio</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[tg_hdl_ratio]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>tg_hdl_ratio</remote-alias>
+              <ordinal>44</ordinal>
+              <family>Heart_attck_cleaned.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>17727</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>pulse_pressure</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[pulse_pressure]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>pulse_pressure</remote-alias>
+              <ordinal>45</ordinal>
+              <family>Heart_attck_cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>234</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:gender:nk]' type='palette'>
+            <map to='#001f5b'>
+              <bucket>&quot;Male&quot;</bucket>
+            </map>
+            <map to='#800000'>
+              <bucket>&quot;Female&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[attr:heart_attack:ok]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>%many-values%</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:heart_attack:ok]' type='palette'>
+            <map to='#001f5b'>
+              <bucket>0</bucket>
+            </map>
+            <map to='#800000'>
+              <bucket>1</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1fxkgg81by847n1bvohzz1ulpt4s].[pcto:cnt:heart_attack:qk:12]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1fxkgg81by847n1bvohzz1ulpt4s].[cnt:heart_attack:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1fxkgg81by847n1bvohzz1ulpt4s].[none:heart_attack:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1fxkgg81by847n1bvohzz1ulpt4s].[pcdf:cnt:heart_attack:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1fxkgg81by847n1bvohzz1ulpt4s].[pcto:cnt:heart_attack:qk:8]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Heart_attck_cleaned.csv' id='Heart_attck_cleaned.csv_15372593D6804AF0B60E080675A9F704'>
+            <properties context=''>
+              <relation connection='textscan.04a7lvq08i2kmk10mibv71vdx8cj' name='Heart_attck_cleaned.csv' table='[Heart_attck_cleaned#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='age' ordinal='0' />
+                  <column datatype='string' name='gender' ordinal='1' />
+                  <column datatype='string' name='region' ordinal='2' />
+                  <column datatype='string' name='income_level' ordinal='3' />
+                  <column datatype='integer' name='hypertension' ordinal='4' />
+                  <column datatype='integer' name='diabetes' ordinal='5' />
+                  <column datatype='integer' name='cholesterol_level' ordinal='6' />
+                  <column datatype='integer' name='obesity' ordinal='7' />
+                  <column datatype='integer' name='waist_circumference' ordinal='8' />
+                  <column datatype='integer' name='family_history' ordinal='9' />
+                  <column datatype='string' name='smoking_status' ordinal='10' />
+                  <column datatype='string' name='physical_activity' ordinal='11' />
+                  <column datatype='string' name='dietary_habits' ordinal='12' />
+                  <column datatype='string' name='air_pollution_exposure' ordinal='13' />
+                  <column datatype='string' name='stress_level' ordinal='14' />
+                  <column datatype='real' name='sleep_hours' ordinal='15' />
+                  <column datatype='integer' name='blood_pressure_systolic' ordinal='16' />
+                  <column datatype='integer' name='blood_pressure_diastolic' ordinal='17' />
+                  <column datatype='integer' name='fasting_blood_sugar' ordinal='18' />
+                  <column datatype='integer' name='cholesterol_hdl' ordinal='19' />
+                  <column datatype='integer' name='cholesterol_ldl' ordinal='20' />
+                  <column datatype='integer' name='triglycerides' ordinal='21' />
+                  <column datatype='string' name='EKG_results' ordinal='22' />
+                  <column datatype='integer' name='previous_heart_disease' ordinal='23' />
+                  <column datatype='integer' name='medication_usage' ordinal='24' />
+                  <column datatype='integer' name='participated_in_free_screening' ordinal='25' />
+                  <column datatype='integer' name='heart_attack' ordinal='26' />
+                  <column datatype='string' name='age_class' ordinal='27' />
+                  <column datatype='string' name='waist_class' ordinal='28' />
+                  <column datatype='string' name='bp_systolic_class' ordinal='29' />
+                  <column datatype='string' name='bp_diastolic_class' ordinal='30' />
+                  <column datatype='string' name='fasting_class' ordinal='31' />
+                  <column datatype='string' name='cholesterol_class' ordinal='32' />
+                  <column datatype='string' name='ldl_class' ordinal='33' />
+                  <column datatype='string' name='hdl_class' ordinal='34' />
+                  <column datatype='string' name='triglycerides_class' ordinal='35' />
+                  <column datatype='string' name='sleep_class' ordinal='36' />
+                  <column datatype='integer' name='risk_score' ordinal='37' />
+                  <column datatype='integer' name='metabolic_syndrome' ordinal='38' />
+                  <column datatype='integer' name='lifestyle_score' ordinal='39' />
+                  <column datatype='integer' name='stress_risk' ordinal='40' />
+                  <column datatype='string' name='heart_risk_group' ordinal='41' />
+                  <column datatype='integer' name='diabetes_obesity' ordinal='42' />
+                  <column datatype='integer' name='smoking_stress' ordinal='43' />
+                  <column datatype='real' name='tg_hdl_ratio' ordinal='44' />
+                  <column datatype='integer' name='pulse_pressure' ordinal='45' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Cholesterol cat. &amp; HA'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Cholesterol &amp; Heart Attack</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Heart_attck_cleaned (2)' name='federated.1fxkgg81by847n1bvohzz1ulpt4s' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1fxkgg81by847n1bvohzz1ulpt4s'>
+            <column caption='Cholesterol Class' datatype='string' name='[cholesterol_class]' role='dimension' type='nominal' />
+            <column-instance column='[heart_attack]' derivation='Count' name='[cnt:heart_attack:qk]' pivot='key' type='quantitative' />
+            <column caption='Heart Attack' datatype='integer' name='[heart_attack]' role='measure' type='quantitative' />
+            <column-instance column='[cholesterol_class]' derivation='None' name='[none:cholesterol_class:nk]' pivot='key' type='nominal' />
+            <column-instance column='[heart_attack]' derivation='None' name='[none:heart_attack:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[heart_attack]' derivation='Count' name='[pcto:cnt:heart_attack:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='width' field='[federated.1fxkgg81by847n1bvohzz1ulpt4s].[cnt:heart_attack:qk]' value='12' />
+            <format attr='tick-color' field='[federated.1fxkgg81by847n1bvohzz1ulpt4s].[cnt:heart_attack:qk]' value='#f5f5f500' />
+            <format attr='tick-color' value='#f5f5f500' />
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='background-color' field='[federated.1fxkgg81by847n1bvohzz1ulpt4s].[cnt:heart_attack:qk]' value='#000000' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-size' value='12' />
+            <format attr='font-size' field='[federated.1fxkgg81by847n1bvohzz1ulpt4s].[cnt:heart_attack:qk]' value='8' />
+            <format attr='color' field='[federated.1fxkgg81by847n1bvohzz1ulpt4s].[cnt:heart_attack:qk]' value='#000000' />
+            <format attr='font-size' field='[federated.1fxkgg81by847n1bvohzz1ulpt4s].[none:cholesterol_class:nk]' value='10' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='color' value='#ffffff' />
+            <format attr='font-family' value='Tw Cen MT Condensed Extra Bold' />
+            <format attr='font-size' value='10' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' value='0' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='div-level' scope='cols' value='0' />
+            <format attr='div-level' scope='rows' value='0' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='color' value='#ffffff' />
+            <format attr='font-family' value='Tw Cen MT Condensed Extra Bold' />
+          </style-rule>
+          <style-rule element='axis-title'>
+            <format attr='font-size' field='[federated.1fxkgg81by847n1bvohzz1ulpt4s].[cnt:heart_attack:qk]' value='10' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1fxkgg81by847n1bvohzz1ulpt4s].[none:heart_attack:ok]' />
+              <text column='[federated.1fxkgg81by847n1bvohzz1ulpt4s].[pcto:cnt:heart_attack:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1fxkgg81by847n1bvohzz1ulpt4s].[cnt:heart_attack:qk]</rows>
+        <cols>[federated.1fxkgg81by847n1bvohzz1ulpt4s].[none:cholesterol_class:nk]</cols>
+      </table>
+      <simple-id uuid='{D76A0B57-AF93-4B5A-97DF-490C17D64BC8}' />
+    </worksheet>
+    <worksheet name='Heart Attack Cases by Age Class'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Age Distribution</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Heart_attck_cleaned (2)' name='federated.1fxkgg81by847n1bvohzz1ulpt4s' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1fxkgg81by847n1bvohzz1ulpt4s'>
+            <column caption='Age Class' datatype='string' name='[age_class]' role='dimension' type='nominal' />
+            <column-instance column='[heart_attack]' derivation='Count' name='[cnt:heart_attack:qk]' pivot='key' type='quantitative' />
+            <column caption='Heart Attack' datatype='integer' name='[heart_attack]' role='measure' type='quantitative' />
+            <column-instance column='[age_class]' derivation='None' name='[none:age_class:nk]' pivot='key' type='nominal' />
+            <column-instance column='[heart_attack]' derivation='None' name='[none:heart_attack:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[heart_attack]' derivation='Count' name='[pcto:cnt:heart_attack:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='width' field='[federated.1fxkgg81by847n1bvohzz1ulpt4s].[cnt:heart_attack:qk]' value='12' />
+            <format attr='stroke-color' scope='cols' value='#f5f5f5' />
+            <format attr='line-pattern-only' scope='rows' value='solid' />
+            <format attr='stroke-color' scope='rows' value='#f5f5f5' />
+            <format attr='tick-color' scope='rows' value='#00000000' />
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='color' data-class='subtotal' scope='cols' value='#000000' />
+            <format attr='font-size' value='8' />
+            <format attr='font-size' field='[federated.1fxkgg81by847n1bvohzz1ulpt4s].[pcto:cnt:heart_attack:qk]' value='10' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='color' data-class='subtotal' scope='cols' value='#000000' />
+            <format attr='font-size' data-class='subtotal' scope='cols' value='9' />
+            <format attr='font-size' data-class='total' scope='cols' value='10' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='color' scope='rows' value='#000000' />
+            <format attr='font-size' scope='rows' value='10' />
+            <format attr='font-size' field='[federated.1fxkgg81by847n1bvohzz1ulpt4s].[none:age_class:nk]' value='10' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='color' value='#ffffff' />
+            <format attr='font-family' value='Tw Cen MT Condensed Extra Bold' />
+            <format attr='font-weight' value='bold' />
+            <format attr='font-size' value='14' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='line-pattern-only' scope='rows' value='solid' />
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-color' value='#f2f2f200' />
+            <format attr='line-visibility' value='on' />
+            <format attr='line-pattern-only' value='solid' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='color' value='#ffffff' />
+            <format attr='font-weight' value='bold' />
+            <format attr='font-family' value='Tw Cen MT Condensed Extra Bold' />
+          </style-rule>
+          <style-rule element='tooltip'>
+            <format attr='color' value='#ffffff' />
+            <format attr='font-family' value='Tw Cen MT Condensed Extra Bold' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1fxkgg81by847n1bvohzz1ulpt4s].[none:heart_attack:ok]' />
+              <text column='[federated.1fxkgg81by847n1bvohzz1ulpt4s].[pcto:cnt:heart_attack:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1fxkgg81by847n1bvohzz1ulpt4s].[cnt:heart_attack:qk]</rows>
+        <cols>[federated.1fxkgg81by847n1bvohzz1ulpt4s].[none:age_class:nk]</cols>
+      </table>
+      <simple-id uuid='{178C79D9-B98F-4FD1-AE63-A95222E68F9C}' />
+    </worksheet>
+    <worksheet name='Heart Attack Cases by Diabetes and Hypertension'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#ffffff' fontname='Tw Cen MT Condensed Extra Bold'>Diabetes &amp; Heart Attack</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Heart_attck_cleaned (2)' name='federated.1fxkgg81by847n1bvohzz1ulpt4s' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1fxkgg81by847n1bvohzz1ulpt4s'>
+            <column caption='Diabetes_str' datatype='string' name='[Calculation_2513227430150146]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [diabetes] = 0 THEN &quot;No&quot; ELSE &quot;Yes&quot; END' />
+            </column>
+            <column-instance column='[heart_attack]' derivation='Count' name='[cnt:heart_attack:qk]' pivot='key' type='quantitative' />
+            <column caption='Diabetes' datatype='integer' name='[diabetes]' role='measure' type='quantitative' />
+            <column caption='Heart Attack' datatype='integer' name='[heart_attack]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_2513227430150146]' derivation='None' name='[none:Calculation_2513227430150146:nk]' pivot='key' type='nominal' />
+            <column-instance column='[heart_attack]' derivation='None' name='[none:heart_attack:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[heart_attack]' derivation='Count' name='[pcto:cnt:heart_attack:qk:8]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Columns' type='PctTotal' />
+            </column-instance>
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='tick-color' scope='rows' value='#00000000' />
+            <format attr='tick-color' field='[federated.1fxkgg81by847n1bvohzz1ulpt4s].[cnt:heart_attack:qk]' value='#00000000' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='color' value='#ffffff' />
+            <format attr='font-family' value='Tw Cen MT Condensed Extra Bold' />
+            <format attr='font-size' value='10' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.1fxkgg81by847n1bvohzz1ulpt4s].[none:Calculation_2513227430150146:nk]' value='112' />
+            <format attr='background-color' field='[federated.1fxkgg81by847n1bvohzz1ulpt4s].[cnt:heart_attack:qk]' value='#000000' />
+            <format attr='background-color' value='#00000000' />
+            <format attr='background-color' data-class='subtotal' value='#ffffff' />
+            <format attr='background-color' data-class='total' value='#ffffff' />
+            <format attr='color' data-class='total' value='#ffffff' />
+            <format attr='font-family' data-class='total' value='Tw Cen MT Condensed Extra Bold' />
+          </style-rule>
+          <style-rule element='field-labels'>
+            <format attr='font-family' value='Tw Cen MT Condensed Extra Bold' />
+            <format attr='color' value='#ffffff' />
+            <format attr='font-size' value='10' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-size' field='[federated.1fxkgg81by847n1bvohzz1ulpt4s].[cnt:heart_attack:qk]' value='1' />
+            <format attr='color' field='[federated.1fxkgg81by847n1bvohzz1ulpt4s].[cnt:heart_attack:qk]' value='#000000' />
+            <format attr='color' scope='rows' value='#ffffff' />
+            <format attr='font-family' scope='rows' value='Tw Cen MT Condensed Extra Bold' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='background-color' data-class='subtotal' value='#ffffff' />
+            <format attr='background-color' data-class='total' value='#ffffff' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#000000' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='tooltip'>
+            <format attr='color' value='#ffffff' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.1fxkgg81by847n1bvohzz1ulpt4s].[none:heart_attack:ok]' />
+              <text column='[federated.1fxkgg81by847n1bvohzz1ulpt4s].[pcto:cnt:heart_attack:qk:8]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1fxkgg81by847n1bvohzz1ulpt4s].[none:Calculation_2513227430150146:nk]</rows>
+        <cols>[federated.1fxkgg81by847n1bvohzz1ulpt4s].[cnt:heart_attack:qk]</cols>
+      </table>
+      <simple-id uuid='{427B1F0C-7E9A-407A-834F-EA2117D64C1C}' />
+    </worksheet>
+    <worksheet name='Heart Attack Cases by Gender'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontsize='12'>Gender destribution</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Heart_attck_cleaned (2)' name='federated.1fxkgg81by847n1bvohzz1ulpt4s' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1fxkgg81by847n1bvohzz1ulpt4s'>
+            <column caption='Gender' datatype='string' name='[gender]' role='dimension' type='nominal' />
+            <column caption='Heart Attack' datatype='integer' name='[heart_attack]' role='measure' type='quantitative' />
+            <column-instance column='[gender]' derivation='None' name='[none:gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[heart_attack]' derivation='Sum' name='[pcto:sum:heart_attack:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[heart_attack]' derivation='Sum' name='[sum:heart_attack:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.1fxkgg81by847n1bvohzz1ulpt4s].[pcto:sum:heart_attack:qk]' value='p0%' />
+            <format attr='font-family' data-class='total' field='[federated.1fxkgg81by847n1bvohzz1ulpt4s].[pcto:sum:heart_attack:qk]' value='Tw Cen MT Condensed Extra Bold' />
+            <format attr='font-family' data-class='subtotal' field='[federated.1fxkgg81by847n1bvohzz1ulpt4s].[pcto:sum:heart_attack:qk]' value='Tw Cen MT Condensed Extra Bold' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='background-color' field='[federated.1fxkgg81by847n1bvohzz1ulpt4s].[none:gender:nk]' value='#000000' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-size' value='16' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='color' value='#ffffff' />
+            <format attr='font-family' value='Tw Cen MT Condensed Extra Bold' />
+            <format attr='font-size' value='12' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='color' value='#ffffff' />
+            <format attr='font-family' value='Tw Cen MT Condensed Extra Bold' />
+            <format attr='font-size' value='14' />
+          </style-rule>
+          <style-rule element='tooltip'>
+            <format attr='font-size' value='9' />
+            <format attr='font-family' value='Tw Cen MT Condensed Extra Bold' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.1fxkgg81by847n1bvohzz1ulpt4s].[none:gender:nk]' />
+              <wedge-size column='[federated.1fxkgg81by847n1bvohzz1ulpt4s].[sum:heart_attack:qk]' />
+              <size column='[federated.1fxkgg81by847n1bvohzz1ulpt4s].[sum:heart_attack:qk]' />
+              <text column='[federated.1fxkgg81by847n1bvohzz1ulpt4s].[none:gender:nk]' />
+              <text column='[federated.1fxkgg81by847n1bvohzz1ulpt4s].[pcto:sum:heart_attack:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{645D72CC-E9B4-40D4-B74A-8E3B3212CF84}' />
+    </worksheet>
+    <worksheet name='Heart Attack Cases by Physical Activity'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Heart_attck_cleaned (2)' name='federated.1fxkgg81by847n1bvohzz1ulpt4s' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1fxkgg81by847n1bvohzz1ulpt4s'>
+            <column-instance column='[heart_attack]' derivation='Count' name='[cnt:heart_attack:qk]' pivot='key' type='quantitative' />
+            <column caption='Heart Attack' datatype='integer' name='[heart_attack]' role='measure' type='quantitative' />
+            <column-instance column='[heart_attack]' derivation='None' name='[none:heart_attack:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[physical_activity]' derivation='None' name='[none:physical_activity:nk]' pivot='key' type='nominal' />
+            <column caption='Physical Activity' datatype='string' name='[physical_activity]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1fxkgg81by847n1bvohzz1ulpt4s].[none:heart_attack:ok]' />
+              <text column='[federated.1fxkgg81by847n1bvohzz1ulpt4s].[cnt:heart_attack:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1fxkgg81by847n1bvohzz1ulpt4s].[cnt:heart_attack:qk]</rows>
+        <cols>[federated.1fxkgg81by847n1bvohzz1ulpt4s].[none:physical_activity:nk]</cols>
+      </table>
+      <simple-id uuid='{78BF1705-4DBE-4C49-94F0-D7C9E91A72B6}' />
+    </worksheet>
+    <worksheet name='Heart Attack Cases by Smoking Status and Gender'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Smoking State &amp; Heart Attack</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Heart_attck_cleaned (2)' name='federated.1fxkgg81by847n1bvohzz1ulpt4s' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1fxkgg81by847n1bvohzz1ulpt4s'>
+            <column-instance column='[heart_attack]' derivation='Count' name='[cnt:heart_attack:qk]' pivot='key' type='quantitative' />
+            <column caption='Heart Attack' datatype='integer' name='[heart_attack]' role='measure' type='quantitative' />
+            <column-instance column='[heart_attack]' derivation='None' name='[none:heart_attack:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[smoking_status]' derivation='None' name='[none:smoking_status:nk]' pivot='key' type='nominal' />
+            <column-instance column='[heart_attack]' derivation='Count' name='[pcto:cnt:heart_attack:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column caption='Smoking Status' datatype='string' name='[smoking_status]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='tick-color' scope='rows' value='#00000000' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.1fxkgg81by847n1bvohzz1ulpt4s].[pcto:cnt:heart_attack:qk]' value='p0%' />
+            <format attr='color' data-class='subtotal' scope='rows' value='#000000' />
+            <format attr='color' data-class='subtotal' scope='cols' value='#000000' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='color' data-class='subtotal' scope='cols' value='#000000' />
+            <format attr='color' data-class='subtotal' scope='rows' value='#000000' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-weight' value='bold' />
+            <format attr='font-size' value='12' />
+            <format attr='color' scope='rows' value='#000000' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='color' value='#ffffff' />
+            <format attr='font-family' value='Tw Cen MT Condensed Extra Bold' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-color' value='#f2f2f200' />
+            <format attr='line-visibility' value='on' />
+            <format attr='line-pattern-only' value='solid' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='font-family' value='Tw Cen MT Condensed Extra Bold' />
+            <format attr='color' value='#ffffff' />
+            <format attr='font-weight' value='bold' />
+            <format attr='font-size' value='15' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1fxkgg81by847n1bvohzz1ulpt4s].[none:heart_attack:ok]' />
+              <text column='[federated.1fxkgg81by847n1bvohzz1ulpt4s].[pcto:cnt:heart_attack:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1fxkgg81by847n1bvohzz1ulpt4s].[cnt:heart_attack:qk]</rows>
+        <cols>[federated.1fxkgg81by847n1bvohzz1ulpt4s].[none:smoking_status:nk]</cols>
+      </table>
+      <simple-id uuid='{39FB004A-480D-4BEB-AFCC-39B1D9F7FE44}' />
+    </worksheet>
+    <worksheet name='Obesity  &amp; HA'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Obesity &amp; Heart Attack</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Heart_attck_cleaned (2)' name='federated.1fxkgg81by847n1bvohzz1ulpt4s' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1fxkgg81by847n1bvohzz1ulpt4s'>
+            <column caption='heart_attack_str' datatype='string' name='[Calculation_2513227402211329]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [heart_attack] = 0 THEN &quot;No&quot; ELSE &quot;Yes&quot; END' />
+            </column>
+            <column caption='Obesity_str' datatype='string' name='[Calculation_2513227441213443]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [obesity] = 0 THEN &quot;No&quot; ELSE &quot;Yes&quot; END' />
+            </column>
+            <column-instance column='[heart_attack]' derivation='Count' name='[cnt:heart_attack:qk]' pivot='key' type='quantitative' />
+            <column caption='Heart Attack' datatype='integer' name='[heart_attack]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_2513227402211329]' derivation='None' name='[none:Calculation_2513227402211329:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_2513227441213443]' derivation='None' name='[none:Calculation_2513227441213443:nk]' pivot='key' type='nominal' />
+            <column-instance column='[heart_attack]' derivation='None' name='[none:heart_attack:ok]' pivot='key' type='ordinal' />
+            <column caption='Obesity' datatype='integer' name='[obesity]' role='measure' type='quantitative' />
+            <column-instance column='[heart_attack]' derivation='Count' name='[pcto:cnt:heart_attack:qk:8]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Columns' type='PctTotal' />
+            </column-instance>
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='tick-color' field='[federated.1fxkgg81by847n1bvohzz1ulpt4s].[cnt:heart_attack:qk]' value='#f5f5f500' />
+            <format attr='tick-color' value='#f5f5f500' />
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='tick-color' field='[federated.1fxkgg81by847n1bvohzz1ulpt4s].[pcto:cnt:heart_attack:qk:8]' value='#f5f5f500' />
+            <format attr='height' field='[federated.1fxkgg81by847n1bvohzz1ulpt4s].[cnt:heart_attack:qk]' value='10' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.1fxkgg81by847n1bvohzz1ulpt4s].[none:Calculation_2513227402211329:nk]' value='10' />
+            <format attr='background-color' field='[federated.1fxkgg81by847n1bvohzz1ulpt4s].[cnt:heart_attack:qk]' value='#000000' />
+            <format attr='background-color' field='[federated.1fxkgg81by847n1bvohzz1ulpt4s].[pcto:cnt:heart_attack:qk:8]' value='#000000' />
+          </style-rule>
+          <style-rule element='field-labels'>
+            <format attr='color' value='#ffffff' />
+          </style-rule>
+          <style-rule element='field-labels-spanner'>
+            <format attr='color' scope='rows' value='#000000' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-size' value='12' />
+            <format attr='font-size' field='[federated.1fxkgg81by847n1bvohzz1ulpt4s].[cnt:heart_attack:qk]' value='8' />
+            <format attr='color' field='[federated.1fxkgg81by847n1bvohzz1ulpt4s].[cnt:heart_attack:qk]' value='#000000' />
+            <format attr='font-size' field='[federated.1fxkgg81by847n1bvohzz1ulpt4s].[pcto:cnt:heart_attack:qk:8]' value='8' />
+            <format attr='color' field='[federated.1fxkgg81by847n1bvohzz1ulpt4s].[pcto:cnt:heart_attack:qk:8]' value='#000000' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='color' value='#ffffff' />
+            <format attr='font-family' value='Tw Cen MT Condensed Extra Bold' />
+            <format attr='font-size' value='10' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' value='0' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='color' value='#ffffff' />
+            <format attr='font-family' value='Tw Cen MT Condensed Extra Bold' />
+          </style-rule>
+          <style-rule element='axis-title'>
+            <format attr='font-size' field='[federated.1fxkgg81by847n1bvohzz1ulpt4s].[cnt:heart_attack:qk]' value='10' />
+            <format attr='font-size' field='[federated.1fxkgg81by847n1bvohzz1ulpt4s].[pcto:cnt:heart_attack:qk:8]' value='10' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1fxkgg81by847n1bvohzz1ulpt4s].[none:heart_attack:ok]' />
+              <text column='[federated.1fxkgg81by847n1bvohzz1ulpt4s].[pcto:cnt:heart_attack:qk:8]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1fxkgg81by847n1bvohzz1ulpt4s].[none:Calculation_2513227441213443:nk] / [federated.1fxkgg81by847n1bvohzz1ulpt4s].[none:Calculation_2513227402211329:nk])</rows>
+        <cols>[federated.1fxkgg81by847n1bvohzz1ulpt4s].[cnt:heart_attack:qk]</cols>
+      </table>
+      <simple-id uuid='{FF9D766C-CAA2-4FE6-A8C3-D6DA6A45983C}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Intro'>
+      <style>
+        <style-rule element='table'>
+          <format attr='background-color' value='#000000' />
+        </style-rule>
+        <style-rule element='dash-title'>
+          <format attr='font-family' value='Tw Cen MT Condensed Extra Bold' />
+        </style-rule>
+      </style>
+      <size maxheight='1080' maxwidth='1920' minheight='560' minwidth='420' sizing-mode='range' />
+      <zones>
+        <zone h='98002' id='3' is-scaled='1' param='Image/human.png' type-v2='bitmap' w='100703' x='-7323' y='1763'>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <_.fcp.DashboardRoundedCorners.true...format attr='corner-radius' value='30' />
+          </zone-style>
+        </zone>
+        <zone forceUpdate='true' h='21739' id='5' type-v2='text' w='44112' x='42062' y='1998'>
+          <formatted-text>
+            <run fontcolor='#990000' fontname='Tw Cen MT Condensed Extra Bold' fontsize='55'>Heart Attack Project</run>
+          </formatted-text>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='4' />
+          </zone-style>
+        </zone>
+        <zone h='10576' id='7' param='horz' type-v2='layout-flow' w='5272' x='-59' y='235'>
+          <zone h='10576' id='6' is-scaled='1' param='Image/yat.png' type-v2='bitmap' w='5272' x='-59' y='235'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <_.fcp.DashboardRoundedCorners.true...format attr='corner-radius' value='2000' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <_.fcp.DashboardRoundedCorners.true...format attr='corner-radius' value='1000' />
+          </zone-style>
+        </zone>
+        <zone h='10576' id='9' param='horz' type-v2='layout-flow' w='5272' x='5682' y='235'>
+          <zone h='10576' id='8' is-scaled='1' param='Image/WhatsApp Image 2026-07-01 at 6.00.34 PM.jpeg' type-v2='bitmap' w='5272' x='5682' y='235'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <_.fcp.DashboardRoundedCorners.true...format attr='corner-radius' value='2000' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <_.fcp.DashboardRoundedCorners.true...format attr='corner-radius' value='1000' />
+          </zone-style>
+        </zone>
+        <zone forceUpdate='true' h='53937' id='10' type-v2='text' w='29643' x='49854' y='17626'>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#990000' fontname='Tw Cen MT Condensed Extra Bold' fontsize='28'>By:</run>
+            <run>Æ&#10;</run>
+            <run fontcolor='#ffffff' fontname='Tw Cen MT Condensed Extra Bold' fontsize='26'>Asmaa Mohamed Ali</run>
+            <run>Æ&#10;</run>
+            <run fontcolor='#ffffff' fontname='Tw Cen MT Condensed Extra Bold' fontsize='26'>Rawan Mohamed Hussein</run>
+            <run>Æ&#10;</run>
+            <run fontcolor='#ffffff' fontname='Tw Cen MT Condensed Extra Bold' fontsize='26'>Giovanna Michel Nassif</run>
+            <run>Æ&#10;</run>
+            <run fontcolor='#ffffff' fontname='Tw Cen MT Condensed Extra Bold' fontsize='26'>Ali Mamdouh Ali</run>
+            <run>Æ&#10;</run>
+            <run fontcolor='#ffffff' fontname='Tw Cen MT Condensed Extra Bold' fontsize='26'>Mostafa Mahmoud El-Abd</run>
+            <run>Æ&#10;</run>
+            <run fontcolor='#ffffff' fontname='Tw Cen MT Condensed Extra Bold' fontsize='26'>Yasmin Ahmed Hosny</run>
+            <run fontalignment='1'>Æ&#10;</run>
+            <run fontalignment='1' fontcolor='#990000' fontname='Tw Cen MT Condensed Extra Bold' fontsize='28'>Instructor:</run>
+            <run fontalignment='1'>Æ&#10;</run>
+            <run fontalignment='1' fontcolor='#990000' fontname='Tw Cen MT Condensed Extra Bold' fontsize='29'>Dr. Amal Mahmoud</run>
+          </formatted-text>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='4' />
+          </zone-style>
+        </zone>
+        <zone friendly-name='Medical Dashbored' h='10223' id='12' param='horz' type-v2='layout-flow' w='20654' x='54069' y='74618'>
+          <zone h='10223' id='13' type-v2='dashboard-object' w='20654' x='54069' y='74618'>
+            <button action='tabdoc:goto-sheet window-id=&quot;{3C4FF0AB-E72F-48B5-9D5A-D3E163751E4B}&quot;' button-type='text'>
+              <button-visual-state>
+                <caption>Medical Dashbored</caption>
+                <button-caption-font-style bold='true' fontcolor='#ffffff' fontname='Tw Cen MT Condensed' fontsize='24' />
+                <format attr='background-color' value='#9900005d' />
+              </button-visual-state>
+            </button>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+        </zone>
+        <zone friendly-name='the other dashbored' h='10223' id='15' param='horz' type-v2='layout-flow' w='20654' x='75462' y='74618'>
+          <zone h='10223' id='14' type-v2='dashboard-object' w='20654' x='75462' y='74618'>
+            <button action='tabdoc:goto-sheet window-id=&quot;{3C4FF0AB-E72F-48B5-9D5A-D3E163751E4B}&quot;' button-type='text'>
+              <button-visual-state>
+                <caption>Medical Dashbored</caption>
+                <button-caption-font-style bold='true' fontcolor='#ffffff' fontname='Tw Cen MT Condensed' fontsize='24' />
+                <format attr='background-color' value='#9900005d' />
+              </button-visual-state>
+            </button>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='800' minheight='800' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='19' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98120' id='18' param='vert' type-v2='layout-flow' w='99014' x='493' y='940'>
+                <zone fixed-size='106' h='10576' id='6' is-fixed='true' is-scaled='1' param='Image/yat.png' type-v2='bitmap' w='5272' x='-59' y='235'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <_.fcp.DashboardRoundedCorners.true...format attr='corner-radius' value='2000' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='106' h='10576' id='8' is-fixed='true' is-scaled='1' param='Image/WhatsApp Image 2026-07-01 at 6.00.34 PM.jpeg' type-v2='bitmap' w='5272' x='5682' y='235'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <_.fcp.DashboardRoundedCorners.true...format attr='corner-radius' value='2000' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='98002' id='20' is-fixed='true' is-scaled='1' param='Image/gif.gif' type-v2='bitmap' w='100703' x='-7323' y='1763'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <_.fcp.DashboardRoundedCorners.true...format attr='corner-radius' value='30' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='21739' id='5' type-v2='text' w='44112' x='42062' y='1998'>
+                  <formatted-text>
+                    <run fontcolor='#990000' fontname='Tw Cen MT Condensed Extra Bold' fontsize='55'>Heart Attack Project</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='53937' id='10' type-v2='text' w='29643' x='49854' y='17626'>
+                  <formatted-text>
+                    <run fontalignment='1' fontcolor='#990000' fontname='Tw Cen MT Condensed Extra Bold' fontsize='28'>By:</run>
+                    <run>Æ&#10;</run>
+                    <run fontcolor='#ffffff' fontname='Tw Cen MT Condensed Extra Bold' fontsize='26'>Asmaa Mohamed Ali</run>
+                    <run>Æ&#10;</run>
+                    <run fontcolor='#ffffff' fontname='Tw Cen MT Condensed Extra Bold' fontsize='26'>Rawan Mohamed Hussein</run>
+                    <run>Æ&#10;</run>
+                    <run fontcolor='#ffffff' fontname='Tw Cen MT Condensed Extra Bold' fontsize='26'>Giovanna Michel Nassif</run>
+                    <run>Æ&#10;</run>
+                    <run fontcolor='#ffffff' fontname='Tw Cen MT Condensed Extra Bold' fontsize='26'>Ali Mamdouh Ali</run>
+                    <run>Æ&#10;</run>
+                    <run fontcolor='#ffffff' fontname='Tw Cen MT Condensed Extra Bold' fontsize='26'>Mostafa Mahmoud El-Abd</run>
+                    <run>Æ&#10;</run>
+                    <run fontcolor='#ffffff' fontname='Tw Cen MT Condensed Extra Bold' fontsize='26'>Yasmin Ahmed Hosny</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1' fontcolor='#990000' fontname='Tw Cen MT Condensed Extra Bold' fontsize='28'>Instructor:</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1' fontcolor='#990000' fontname='Tw Cen MT Condensed Extra Bold' fontsize='29'>Dr. Amal Mahmoud</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='10223' id='13' type-v2='dashboard-object' w='20654' x='54069' y='74618'>
+                  <button action='tabdoc:goto-sheet window-id=&quot;{3C4FF0AB-E72F-48B5-9D5A-D3E163751E4B}&quot;' button-type='text'>
+                    <button-visual-state>
+                      <caption>Medical Dashbored</caption>
+                      <button-caption-font-style bold='true' fontcolor='#ffffff' fontname='Tw Cen MT Condensed' fontsize='24' />
+                      <format attr='background-color' value='#9900005d' />
+                    </button-visual-state>
+                  </button>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='10223' id='14' type-v2='dashboard-object' w='20654' x='75462' y='74618'>
+                  <button action='tabdoc:goto-sheet window-id=&quot;{3C4FF0AB-E72F-48B5-9D5A-D3E163751E4B}&quot;' button-type='text'>
+                    <button-visual-state>
+                      <caption>Medical Dashbored</caption>
+                      <button-caption-font-style bold='true' fontcolor='#ffffff' fontname='Tw Cen MT Condensed' fontsize='24' />
+                      <format attr='background-color' value='#9900005d' />
+                    </button-visual-state>
+                  </button>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{AACE73E5-FA51-4D1F-A931-7033A0743186}' />
+    </dashboard>
+    <dashboard enable-sort-zone-taborder='true' name='Medical_Dashboard'>
+      <style>
+        <style-rule element='table'>
+          <format attr='background-color' value='#000000' />
+        </style-rule>
+        <style-rule element='dash-title'>
+          <format attr='color' value='#ffffff' />
+          <format attr='font-family' value='Tw Cen MT Condensed Extra Bold' />
+        </style-rule>
+        <style-rule element='dash-subtitle'>
+          <format attr='font-family' value='Tw Cen MT Condensed Extra Bold' />
+          <format attr='color' value='#ffffff' />
+        </style-rule>
+        <style-rule element='dash-text'>
+          <format attr='font-family' value='Tw Cen MT Condensed Extra Bold' />
+          <format attr='color' value='#ffffff' />
+        </style-rule>
+      </style>
+      <size maxheight='1080' maxwidth='1920' minheight='560' minwidth='420' sizing-mode='range' />
+      <zones>
+        <zone friendly-name='Header' h='7873' id='10' param='horz' type-v2='layout-flow' w='100185' x='-185' y='-588'>
+          <zone h='7873' id='12' type-v2='dashboard-object' w='4131' x='-185' y='-588'>
+            <button action='tabdoc:goto-sheet window-id=&quot;{A5A8EB33-9F22-487E-AEDA-E9E8F0EEA7C4}&quot;'>
+              <button-visual-state>
+                <image-path>Image/HOME.png</image-path>
+              </button-visual-state>
+            </button>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone forceUpdate='true' h='7873' id='11' type-v2='text' w='91923' x='3946' y='-588'>
+            <formatted-text>
+              <run fontalignment='1' fontsize='36'>Medical Dashboard</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='7873' id='30' type-v2='dashboard-object' w='4131' x='95869' y='-588'>
+            <button action='tabdoc:goto-sheet window-id=&quot;{A5A8EB33-9F22-487E-AEDA-E9E8F0EEA7C4}&quot;'>
+              <button-visual-state>
+                <image-path>Image/HOME 1.png</image-path>
+              </button-visual-state>
+            </button>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='background-color' value='#9900003e' />
+          </zone-style>
+        </zone>
+        <zone friendly-name='Gpie' h='35018' id='13' param='horz' type-v2='layout-flow' w='21948' x='28360' y='25264'>
+          <zone h='34312' id='5' name='Heart Attack Cases by Gender' w='21578' x='28545' y='25617'>
+            <layout-cache cell-count-w='1' type-h='cell' type-w='cell' />
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#ffffff' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='3' />
+            <_.fcp.DashboardRoundedCorners.true...format attr='corner-radius' value='20' />
+          </zone-style>
+        </zone>
+        <zone friendly-name='Age_dist' h='74618' id='15' layout-strategy-id='distribute-evenly' param='horz' type-v2='layout-flow' w='25401' x='2158' y='25147'>
+          <zone fixed-size='369' h='73913' id='16' is-fixed='true' name='Heart Attack Cases by Age Class' w='25031' x='2343' y='25499'>
+            <layout-cache minheight='203' type-h='scalable' type-w='cell' />
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#ffffff' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='3' />
+            <_.fcp.DashboardRoundedCorners.true...format attr='corner-radius' value='35' />
+          </zone-style>
+        </zone>
+        <zone friendly-name='diabetes' h='34313' id='17' param='horz' type-v2='layout-flow' w='36868' x='52281' y='26204'>
+          <zone fixed-size='367' h='33607' id='22' is-fixed='true' name='Heart Attack Cases by Diabetes and Hypertension' w='36498' x='52466' y='26557'>
+            <layout-cache minwidth='212' type-h='cell' type-w='scalable' />
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#ffffff' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='3' />
+            <_.fcp.DashboardRoundedCorners.true...format attr='corner-radius' value='30' />
+          </zone-style>
+        </zone>
+        <zone h='37015' id='21' param='vert' type-v2='layout-flow' w='36436' x='52528' y='61810'>
+          <zone h='36306' id='27' name='Obesity  &amp; HA' w='36066' x='52713' y='62163'>
+            <layout-cache cell-count-h='4' non-cell-size-h='73' type-h='cell' type-w='fixed' />
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#ffffff' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='3' />
+            <_.fcp.DashboardRoundedCorners.true...format attr='corner-radius' value='30' />
+          </zone-style>
+        </zone>
+        <zone h='7756' id='23' is-centered='0' is-scaled='1' param='Image/logo.jpeg' type-v2='bitmap' w='4131' x='37361' y='41246'>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <_.fcp.DashboardRoundedCorners.true...format attr='corner-radius' value='4000' />
+          </zone-style>
+        </zone>
+        <zone h='35018' id='24' param='horz' type-v2='layout-flow' w='21948' x='28360' y='64512'>
+          <zone fixed-size='313' h='34312' id='25' is-fixed='true' name='Cholesterol cat. &amp; HA' w='21578' x='28545' y='64865'>
+            <layout-cache minheight='203' type-h='scalable' type-w='cell' />
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#ffffff' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='3' />
+            <_.fcp.DashboardRoundedCorners.true...format attr='corner-radius' value='30' />
+          </zone-style>
+        </zone>
+        <zone h='16216' id='28' param='horz' type-v2='layout-flow' w='87115' x='1110' y='7873' />
+        <zone h='79436' id='29' param='vert' type-v2='layout-flow' w='10234' x='89766' y='20094' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1750' minheight='1750' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='34' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98120' id='33' param='vert' type-v2='layout-flow' w='99014' x='493' y='940'>
+                <zone h='7873' id='12' type-v2='dashboard-object' w='4131' x='-185' y='-588'>
+                  <button action='tabdoc:goto-sheet window-id=&quot;{A5A8EB33-9F22-487E-AEDA-E9E8F0EEA7C4}&quot;'>
+                    <button-visual-state>
+                      <image-path>Image/HOME.png</image-path>
+                    </button-visual-state>
+                  </button>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='7873' id='11' type-v2='text' w='91923' x='3946' y='-588'>
+                  <formatted-text>
+                    <run fontalignment='1' fontsize='36'>Medical Dashboard</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='7873' id='30' type-v2='dashboard-object' w='4131' x='95869' y='-588'>
+                  <button action='tabdoc:goto-sheet window-id=&quot;{A5A8EB33-9F22-487E-AEDA-E9E8F0EEA7C4}&quot;'>
+                    <button-visual-state>
+                      <image-path>Image/HOME 1.png</image-path>
+                    </button-visual-state>
+                  </button>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='73912' id='16' is-fixed='true' name='Heart Attack Cases by Age Class' w='25031' x='2343' y='25500'>
+                  <layout-cache minheight='203' type-h='scalable' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='34312' id='5' is-fixed='true' name='Heart Attack Cases by Gender' w='21578' x='28545' y='25617'>
+                  <layout-cache cell-count-w='1' type-h='cell' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='33607' id='22' is-fixed='true' name='Heart Attack Cases by Diabetes and Hypertension' w='36498' x='52466' y='26557'>
+                  <layout-cache minwidth='212' type-h='cell' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='84' h='7756' id='23' is-centered='0' is-fixed='true' is-scaled='1' param='Image/logo.jpeg' type-v2='bitmap' w='4131' x='37361' y='41246'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <_.fcp.DashboardRoundedCorners.true...format attr='corner-radius' value='4000' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='36306' id='27' is-fixed='true' name='Obesity  &amp; HA' w='36066' x='52713' y='62163'>
+                  <layout-cache type-h='cell' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='34312' id='25' is-fixed='true' name='Cholesterol cat. &amp; HA' w='21578' x='28545' y='64865'>
+                  <layout-cache minheight='203' type-h='scalable' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{AFF8A2AB-0284-4155-ADAE-9BE559A27E31}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='37'>
+    <window class='worksheet' name='Heart Attack Cases by Gender' tab-color='#4f779a'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1fxkgg81by847n1bvohzz1ulpt4s].[none:gender:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.1fxkgg81by847n1bvohzz1ulpt4s].[sum:heart_attack:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{B6AA9858-F573-41C0-86C0-D2A1BDA42C5C}' />
+    </window>
+    <window class='worksheet' name='Heart Attack Cases by Age Class'>
+      <cards>
+        <edge name='left'>
+          <strip size='215'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1fxkgg81by847n1bvohzz1ulpt4s].[none:heart_attack:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{851C27A7-E03D-468D-A20B-E7BB1C9ED96B}' />
+    </window>
+    <window class='worksheet' name='Heart Attack Cases by Smoking Status and Gender'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1fxkgg81by847n1bvohzz1ulpt4s].[none:heart_attack:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{C0A9CCD2-241A-4DDC-B53B-A885B4F45C02}' />
+    </window>
+    <window class='worksheet' name='Heart Attack Cases by Diabetes and Hypertension'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.1fxkgg81by847n1bvohzz1ulpt4s].[none:heart_attack:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{96F96463-B63C-4D31-8DC2-3DD7660ED61F}' />
+    </window>
+    <window class='worksheet' name='Cholesterol cat. &amp; HA'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1fxkgg81by847n1bvohzz1ulpt4s].[none:heart_attack:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{44564224-51A3-40A2-A3BE-746225221CB7}' />
+    </window>
+    <window class='worksheet' name='Obesity  &amp; HA'>
+      <cards>
+        <edge name='left'>
+          <strip size='136'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1fxkgg81by847n1bvohzz1ulpt4s].[none:heart_attack:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{DDF4E8D6-1647-4740-90EA-4F94E12DD44A}' />
+    </window>
+    <window class='worksheet' name='Heart Attack Cases by Physical Activity'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1fxkgg81by847n1bvohzz1ulpt4s].[none:heart_attack:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E6AC4242-3C83-44C9-BCCE-23E9E399F245}' />
+    </window>
+    <window class='dashboard' name='Intro' tab-color='#f66273'>
+      <viewpoints />
+      <active id='13' />
+      <simple-id uuid='{A5A8EB33-9F22-487E-AEDA-E9E8F0EEA7C4}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Medical_Dashboard' tab-color='#f66273'>
+      <viewpoints>
+        <viewpoint name='Cholesterol cat. &amp; HA'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Heart Attack Cases by Age Class'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Heart Attack Cases by Diabetes and Hypertension'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Heart Attack Cases by Gender'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Obesity  &amp; HA'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='15' />
+      <simple-id uuid='{3C4FF0AB-E72F-48B5-9D5A-D3E163751E4B}' />
+    </window>
+  </windows>
+  <referenced-extensions>
+    <referenced-extension>
+      <manifest manifest-version='0.1'>
+        <worksheet-extension extension-version='1.0.0' id='com.tableau.extension.radial'>
+          <default-locale>en_US</default-locale>
+          <name resource-id='name' />
+          <description>A radial chart displays data in a circular format in which the total of all segment values add up to 100%, representing the whole. This visualization type creates donut charts, sunbursts, and fan charts, which are powerful means to summarize simple part-to-whole insights at a high level.</description>
+          <author email='github@tableau.com' name='Tableau' organization='Tableau' website='https://www.tableau.com/support' />
+          <min-api-version>1.12</min-api-version>
+          <source-location>
+            <url>https://tableau-extensions.tableauusercontent.com/radial/radial.html</url>
+          </source-location>
+          <icon />
+          <context-menu>
+            <configure-context-menu-item />
+          </context-menu>
+          <encoding id='level'>
+            <display-name resource-id='level-encoding'>Ring</display-name>
+            <role-spec>
+              <role-type>discrete-dimension</role-type>
+              <role-type>discrete-measure</role-type>
+            </role-spec>
+            <fields max-count='5' />
+            <encoding-icon token='level-radial' />
+            <tooltip resource-id='level-tooltip'>Radial Ring - Drag up to five dimensions here.</tooltip>
+          </encoding>
+          <encoding id='angle'>
+            <display-name resource-id='angle-encoding'>Angle</display-name>
+            <role-spec>
+              <role-type>continuous-measure</role-type>
+            </role-spec>
+            <fields max-count='1' />
+            <encoding-icon token='wedge' />
+            <tooltip resource-id='angle-tooltip'>Segment Angle - Drag a measure here.</tooltip>
+          </encoding>
+          <encoding id='center'>
+            <display-name resource-id='center-encoding'>Center</display-name>
+            <role-spec>
+              <role-type>continuous-measure</role-type>
+              <role-type>discrete-measure</role-type>
+            </role-spec>
+            <fields max-count='1' />
+            <encoding-icon token='exclamation' />
+            <tooltip resource-id='center-tooltip'>Center Label - Drag a measure here</tooltip>
+          </encoding>
+        </worksheet-extension>
+        <resources>
+          <resource id='angle-encoding'>
+            <text locale='de_DE'>Winkel</text>
+            <text locale='en_GB'>Angle</text>
+            <text locale='en_US'>Angle</text>
+            <text locale='es_ES'>Ángulo</text>
+            <text locale='fr_CA'>Angle</text>
+            <text locale='fr_FR'>Angle</text>
+            <text locale='it_IT'>Angolo</text>
+            <text locale='ja_JP'>角度</text>
+            <text locale='ko_KR'>각도</text>
+            <text locale='nl_NL'>Hoek</text>
+            <text locale='pt_BR'>Ângulo</text>
+            <text locale='sv_SE'>Vinkel</text>
+            <text locale='th_TH'>มุม</text>
+            <text locale='zh_CN'>角度</text>
+            <text locale='zh_TW'>角度</text>
+          </resource>
+          <resource id='angle-tooltip'>
+            <text locale='de_DE'>Segmentwinkel - Kennzahl hierher ziehen.</text>
+            <text locale='en_GB'>Segment Angle - Drag a measure here.</text>
+            <text locale='en_US'>Segment Angle - Drag a measure here.</text>
+            <text locale='es_ES'>Ángulo del segmento - Arrastre la medida aquí.</text>
+            <text locale='fr_CA'>Angle du segment - Faites glisser la mesure ici.</text>
+            <text locale='fr_FR'>Angle du segment - Faites glisser la mesure ici.</text>
+            <text locale='it_IT'>Angolo del segmento - Trascina la misura qui.</text>
+            <text locale='ja_JP'>セグメントの角度 - メジャーを使用.</text>
+            <text locale='ko_KR'>세그먼트 각도 - 측정값 사용.</text>
+            <text locale='nl_NL'>Segmenthoek - Sleep meetwaarde hierheen.</text>
+            <text locale='pt_BR'>Ângulo do segmento - Arraste a medida aqui.</text>
+            <text locale='sv_SE'>Segmentvinkel - Dra mått hit.</text>
+            <text locale='th_TH'>มุมของส่วน - ใช้ค่าการวัด.</text>
+            <text locale='zh_CN'>分段角度 - 使用度量.</text>
+            <text locale='zh_TW'>分段角度 - 使用測量值.</text>
+          </resource>
+          <resource id='center-encoding'>
+            <text locale='de_DE'>Zentrum</text>
+            <text locale='en_GB'>Centre</text>
+            <text locale='en_US'>Center</text>
+            <text locale='es_ES'>Centro</text>
+            <text locale='fr_CA'>Centre</text>
+            <text locale='fr_FR'>Centre</text>
+            <text locale='it_IT'>Centro</text>
+            <text locale='ja_JP'>中心</text>
+            <text locale='ko_KR'>중심</text>
+            <text locale='nl_NL'>Centrum</text>
+            <text locale='pt_BR'>Centro</text>
+            <text locale='sv_SE'>Centrum</text>
+            <text locale='th_TH'>ศูนย์กลาง</text>
+            <text locale='zh_CN'>中心</text>
+            <text locale='zh_TW'>中心</text>
+          </resource>
+          <resource id='center-tooltip'>
+            <text locale='de_DE'>Text zentrieren - Kennzahl hierher ziehen.</text>
+            <text locale='en_GB'>Centre Label - Drag a measure here.</text>
+            <text locale='en_US'>Center Label - Drag a measure here.</text>
+            <text locale='es_ES'>Texto central - Arrastre la medida aquí.</text>
+            <text locale='fr_CA'>Texte central - Faites glisser la mesure ici.</text>
+            <text locale='fr_FR'>Texte central - Faites glisser la mesure ici.</text>
+            <text locale='it_IT'>Testo centrale - Trascina la misura qui.</text>
+            <text locale='ja_JP'>中央のテキスト - メジャーを使用.</text>
+            <text locale='ko_KR'>중앙 텍스트 - 측정값 사용.</text>
+            <text locale='nl_NL'>Tekst in het midden - Sleep meetwaarde hierheen.</text>
+            <text locale='pt_BR'>Texto central - Arraste a medida aqui</text>
+            <text locale='sv_SE'>Tekst in het midden - Sleep meetwaarde hierheen.</text>
+            <text locale='th_TH'>ข้อความตรงกลาง - ใช้ค่าการวัด.</text>
+            <text locale='zh_CN'>中心文字 - 使用度量.</text>
+            <text locale='zh_TW'>中心文字 - 使用測量值.</text>
+          </resource>
+          <resource id='level-encoding'>
+            <text locale='de_DE'>Hierarchieebene</text>
+            <text locale='en_GB'>Ring</text>
+            <text locale='en_US'>Ring</text>
+            <text locale='es_ES'>Anillo</text>
+            <text locale='fr_CA'>Anneau</text>
+            <text locale='fr_FR'>Anneau</text>
+            <text locale='it_IT'>Anello</text>
+            <text locale='ja_JP'>階層レベル</text>
+            <text locale='ko_KR'>원</text>
+            <text locale='nl_NL'>Ring</text>
+            <text locale='pt_BR'>Anel</text>
+            <text locale='sv_SE'>nivå</text>
+            <text locale='th_TH'>วงแหวน</text>
+            <text locale='zh_CN'>环</text>
+            <text locale='zh_TW'>環</text>
+          </resource>
+          <resource id='level-tooltip'>
+            <text locale='de_DE'>Hierarchieebene - Ziehen Sie hier bis zu fünf Dimensionen.</text>
+            <text locale='en_GB'>Radial Ring - Drag up to five dimensions here.</text>
+            <text locale='en_US'>Radial Ring - Drag up to five dimensions here.</text>
+            <text locale='es_ES'>Anillo - Arrastre aquí hasta cinco dimensiones.</text>
+            <text locale='fr_CA'>Anneau - Faites glisser jusqu&apos;à cinq dimensions ici.</text>
+            <text locale='fr_FR'>Anneau - Faites glisser jusqu&apos;à cinq dimensions ici.</text>
+            <text locale='it_IT'>Anello - Trascina qui fino a cinque dimensioni.</text>
+            <text locale='ja_JP'>階層レベル - 最大5つのディメンション.</text>
+            <text locale='ko_KR'>원 - 최대 5개의 디멘션.</text>
+            <text locale='nl_NL'>Ring - Sleep hier maximaal vijf dimensies naartoe.</text>
+            <text locale='pt_BR'>Anel - Arraste até cinco dimensões aqui.</text>
+            <text locale='sv_SE'>nivå - Dra upp till fem dimensioner här.</text>
+            <text locale='th_TH'>วงแหวน - &#9;มิติสูงสุดห้ามิติ.</text>
+            <text locale='zh_CN'>环 - 最多五个维度.</text>
+            <text locale='zh_TW'>環 - 最多五個維度.</text>
+          </resource>
+          <resource id='name'>
+            <text locale='en_US'>Radial</text>
+            <text locale='ja_JP'>サンバーストチャート</text>
+            <text locale='zh_CN'>旭日圖</text>
+          </resource>
+        </resources>
+      </manifest>
+      <referenced-views>
+        <referenced-view instances='2' viewId='fake sheet name' />
+      </referenced-views>
+    </referenced-extension>
+    <referenced-extension>
+      <manifest manifest-version='0.1'>
+        <worksheet-extension extension-version='1.0.0' id='com.tableau.extension.table'>
+          <default-locale>en_US</default-locale>
+          <name resource-id='name' />
+          <description>A rich table experience that allows you to build data tables directly in Tableau. Includes conditional formatting, search, and Viz in Cell functionality.</description>
+          <author email='github@tableau.com' name='Tableau' organization='Tableau' website='https://www.tableau.com/support' />
+          <min-api-version>1.12</min-api-version>
+          <source-location>
+            <url>https://tableau-extensions.tableauusercontent.com/table/table.html</url>
+          </source-location>
+          <icon />
+          <context-menu>
+            <configure-context-menu-item />
+          </context-menu>
+        </worksheet-extension>
+        <resources>
+          <resource id='name'>
+            <text locale='en_US'>Tableau Table</text>
+          </resource>
+        </resources>
+      </manifest>
+      <referenced-views>
+        <referenced-view instances='1' viewId='fake sheet name' />
+      </referenced-views>
+    </referenced-extension>
+  </referenced-extensions>
+</workbook>
