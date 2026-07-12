@@ -508,23 +508,6 @@ Potential future improvements include:
 | Version Control | Git & GitHub |
 
 ---
-
-# Project Structure
-
-```
-Heart-Attack-Analysis/
-│
-├── Data/
-├── SQL/
-├── Python/
-├── Excel/
-├── Tableau/
-├── Power BI/
-├── Images/
-├── Documentation/
-└── README.md
-```
-
 # References
 
 - World Health Organization (WHO)
