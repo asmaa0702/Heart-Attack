@@ -269,9 +269,11 @@ Major analytical questions included:
 ***
 ## Excel Project (till the problem with git get solved): [Link](https://drive.google.com/drive/folders/1xu7XkC9bDAchqBM4y-OontBZGSo49gDT)
 ### -The Habits Dashboard: This explains how habits affect the heart's health. Like, Bad Habits for women will cause higher heart attack rate especially for Elderly and Older Adult
+
 <img width="1516" height="660" alt="image" src="https://github.com/user-attachments/assets/976d775c-f505-4655-99d9-bb2ed8ea514f" />
 
 ### -The Biological Dashboard: this explains how the biological side affects the heart's health. Like, Elderly Females with high colostrol and currently smoking the risk score is Higher and they have Diabits and Obasity problems. 
+
 <img width="1512" height="662" alt="image" src="https://github.com/user-attachments/assets/daae5e67-27a5-4e34-ae09-045c374a7e85" />
 ***
 
@@ -280,6 +282,7 @@ Major analytical questions included:
 ### Important Quieries:
 
 ### The Heart Attack incidence rate was significantly higher than the High-Risk Patient segment, indicating that heart attacks represent actual clinical outcomes, while the high-risk group identifies patients with elevated future risk. This analysis enables proactive healthcare resource allocation by prioritizing preventive monitoring and early intervention, helping hospitals shift from reactive treatment to predictive prevention.
+
 <img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/5afc35e7-46bb-4daa-8066-46a47a4cef26" />
 
 ### This analysis challenged common assumptions by showing that age and blood glucose levels were stronger indicators of heart attack risk than blood pressure and cholesterol within this dataset. The findings highlight the importance of data-driven decision-making, demonstrating that the most predictive factors are not always the ones traditionally expected.
@@ -290,22 +293,27 @@ Major analytical questions included:
 ## Python Project:
 
 ### -The Habits Dashboard: This explains how habits affect the heart's health. Like, Bad Habits for women will cause higher heart attack rate especially for Elderly and Older Adult
+
 <img width="1536" height="669" alt="image" src="https://github.com/user-attachments/assets/0db7ba90-abca-4523-919f-7c9c91f8a2ab" />
 
 ### -The Biological Dashboard: this explains how the biological side affects the heart's health. Like, Elderly Females with metoblic syndrom have heart attack rate equels to 55.6%
+
 <img width="1532" height="673" alt="image" src="https://github.com/user-attachments/assets/040f548b-9c60-4ab3-a86c-faf3dbcacbea" />
 
 ***
 ## Tableau Project (till the problem with git get solved): [Link](https://drive.google.com/drive/folders/1xu7XkC9bDAchqBM4y-OontBZGSo49gDT)
 ### -The Habits Dashboard: This explains how habits affect the heart's health. Like, Individuals aged 60 years and above experienced the highest heart attack rate (64.1%). Heart attack incidence increased markedly across the predefined risk groups, reaching 88.6% among high-risk individuals.
+
 <img width="1279" height="638" alt="image" src="https://github.com/user-attachments/assets/40db52f0-0dd1-422e-91dc-29400314e155" />
 
 ***
 ## Power BI Project (till the problem with git get solved): [Link](https://drive.google.com/drive/folders/1xu7XkC9bDAchqBM4y-OontBZGSo49gDT)
 ### -The Habits Dashboard: This explains how habits affect the heart's health. Like, Bad Habits for women will cause higher heart attack rate especially for Elderly and Older Adult
+
 <img width="1271" height="720" alt="image" src="https://github.com/user-attachments/assets/e6d43485-4965-486b-812e-1683c3237341" />
 
 ### -The Biological Dashboard: this explains how the biological side affects the heart's health. Like, Analysis revealed that unhealthy diet and low physical activity are the strongest lifestyle risk factors, with poor dietary habits accounting for 59% of all heart attack cases. Surprisingly, sleep duration, stress levels, and air pollution showed minimal variation in attack rates across categories, suggesting limited independent impact. Income level also played a notable role, with 85% of cases concentrated among middle and low-income patients. Overall, dietary and physical activity interventions appear to be the most impactful targets for heart attack prevention.
+
 <img width="1271" height="720" alt="image" src="https://github.com/user-attachments/assets/35319114-8c9a-4335-b273-effbec726736" />
 
 ***
