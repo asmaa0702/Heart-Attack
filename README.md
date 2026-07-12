@@ -290,10 +290,10 @@ Major analytical questions included:
 ## Python Project:
 
 ### -The Habits Dashboard: This explains how habits affect the heart's health. Like, Bad Habits for women will cause higher heart attack rate especially for Elderly and Older Adult
-<img width="1516" height="660" alt="image" src="https://github.com/user-attachments/assets/976d775c-f505-4655-99d9-bb2ed8ea514f" />
+<img width="1536" height="669" alt="image" src="https://github.com/user-attachments/assets/0db7ba90-abca-4523-919f-7c9c91f8a2ab" />
 
 ### -The Biological Dashboard: this explains how the biological side affects the heart's health. Like, Elderly Females with metoblic syndrom have heart attack rate equels to 55.6%
-<img width="1536" height="669" alt="image" src="https://github.com/user-attachments/assets/0db7ba90-abca-4523-919f-7c9c91f8a2ab" />
+<img width="1532" height="673" alt="image" src="https://github.com/user-attachments/assets/040f548b-9c60-4ab3-a86c-faf3dbcacbea" />
 
 ***
 ## Tableau Project (till the problem with git get solved): [Link](https://drive.google.com/drive/folders/1xu7XkC9bDAchqBM4y-OontBZGSo49gDT)
