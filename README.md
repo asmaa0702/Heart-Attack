@@ -274,7 +274,9 @@ Major analytical questions included:
 ### -The Biological Dashboard: this explains how the biological side affects the heart's health. Like, Elderly Females with high colostrol and currently smoking the risk score is Higher and they have Diabits and Obasity problems. 
 <img width="1512" height="662" alt="image" src="https://github.com/user-attachments/assets/daae5e67-27a5-4e34-ae09-045c374a7e85" />
 ***
-## SQL Project
+
+## SQL Project:
+
 ### Important Quieries:
 
 ### The Heart Attack incidence rate was significantly higher than the High-Risk Patient segment, indicating that heart attacks represent actual clinical outcomes, while the high-risk group identifies patients with elevated future risk. This analysis enables proactive healthcare resource allocation by prioritizing preventive monitoring and early intervention, helping hospitals shift from reactive treatment to predictive prevention.
@@ -285,7 +287,8 @@ Major analytical questions included:
 
 
 ***
-## Python Project
+## Python Project:
+
 ### -The Habits Dashboard: This explains how habits affect the heart's health. Like, Bad Habits for women will cause higher heart attack rate especially for Elderly and Older Adult
 <img width="1516" height="660" alt="image" src="https://github.com/user-attachments/assets/976d775c-f505-4655-99d9-bb2ed8ea514f" />
 
@@ -305,11 +308,13 @@ Major analytical questions included:
 ### -The Biological Dashboard: this explains how the biological side affects the heart's health. Like, Analysis revealed that unhealthy diet and low physical activity are the strongest lifestyle risk factors, with poor dietary habits accounting for 59% of all heart attack cases. Surprisingly, sleep duration, stress levels, and air pollution showed minimal variation in attack rates across categories, suggesting limited independent impact. Income level also played a notable role, with 85% of cases concentrated among middle and low-income patients. Overall, dietary and physical activity interventions appear to be the most impactful targets for heart attack prevention.
 <img width="1271" height="720" alt="image" src="https://github.com/user-attachments/assets/35319114-8c9a-4335-b273-effbec726736" />
 
-# Machine Learning Interpretation
+***
+
+## Machine Learning Interpretation
 
 Although the primary objective of this project was analytical rather than predictive modeling, ensemble learning techniques were employed to evaluate feature importance.
 
-## Random Forest
+### Random Forest
 
 Top contributing variables:
 
@@ -323,7 +328,7 @@ Top contributing variables:
 
 ---
 
-## XGBoost
+### XGBoost
 
 Top contributing variables:
 
