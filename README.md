@@ -265,138 +265,45 @@ Major analytical questions included:
 - How do lifestyle behaviors affect patient outcomes?
 - Which engineered features improve risk stratification?
 ---
-# Excel Dashboard
 
-Interactive Excel dashboards were developed to enable non-technical users to explore cardiovascular risk factors without requiring programming knowledge.
+***
+## Excel Project (till the problem with git get solved): [Link](https://drive.google.com/drive/folders/1xu7XkC9bDAchqBM4y-OontBZGSo49gDT)
+### -The Habits Dashboard: This explains how habits affect the heart's health. Like, Bad Habits for women will cause higher heart attack rate especially for Elderly and Older Adult
+<img width="1516" height="660" alt="image" src="https://github.com/user-attachments/assets/976d775c-f505-4655-99d9-bb2ed8ea514f" />
 
-## Lifestyle Dashboard
+### -The Biological Dashboard: this explains how the biological side affects the heart's health. Like, Elderly Females with high colostrol and currently smoking the risk score is Higher and they have Diabits and Obasity problems. 
+<img width="1512" height="662" alt="image" src="https://github.com/user-attachments/assets/daae5e67-27a5-4e34-ae09-045c374a7e85" />
+***
+## SQL Project
+### Important Quieries:
 
-<p align="center">
-<img src="https://github.com/user-attachments/assets/976d775c-f505-4655-99d9-bb2ed8ea514f" width="950">
-</p>
+### The Heart Attack incidence rate was significantly higher than the High-Risk Patient segment, indicating that heart attacks represent actual clinical outcomes, while the high-risk group identifies patients with elevated future risk. This analysis enables proactive healthcare resource allocation by prioritizing preventive monitoring and early intervention, helping hospitals shift from reactive treatment to predictive prevention.
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/5afc35e7-46bb-4daa-8066-46a47a4cef26" />
 
-## Biological Dashboard
+### This analysis challenged common assumptions by showing that age and blood glucose levels were stronger indicators of heart attack risk than blood pressure and cholesterol within this dataset. The findings highlight the importance of data-driven decision-making, demonstrating that the most predictive factors are not always the ones traditionally expected.
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/a5e3015c-521c-4957-99e4-d3ca8294b338" />
 
-<p align="center">
-<img src="https://github.com/user-attachments/assets/daae5e67-27a5-4e34-ae09-045c374a7e85" width="950">
-</p>
 
-Google Drive Version:
+***
+## Python Project
+### -The Habits Dashboard: This explains how habits affect the heart's health. Like, Bad Habits for women will cause higher heart attack rate especially for Elderly and Older Adult
+<img width="1516" height="660" alt="image" src="https://github.com/user-attachments/assets/976d775c-f505-4655-99d9-bb2ed8ea514f" />
 
-https://drive.google.com/drive/u/1/folders/1xu7XkC9bDAchqBM4y-OontBZGSo49gDT
----
-# SQL Analysis
+### -The Biological Dashboard: this explains how the biological side affects the heart's health. Like, Elderly Females with metoblic syndrom have heart attack rate equels to 55.6%
+<img width="1536" height="669" alt="image" src="https://github.com/user-attachments/assets/0db7ba90-abca-4523-919f-7c9c91f8a2ab" />
 
-SQL was used to answer analytical business questions and identify high-risk patient segments.
+***
+## Tableau Project
+### -The Habits Dashboard: This explains how habits affect the heart's health. Like, Individuals aged 60 years and above experienced the highest heart attack rate (64.1%). Heart attack incidence increased markedly across the predefined risk groups, reaching 88.6% among high-risk individuals.
+<img width="1279" height="638" alt="image" src="https://github.com/user-attachments/assets/40db52f0-0dd1-422e-91dc-29400314e155" />
 
-## Objectives
+***
+## Power BI Project
+### -The Habits Dashboard: This explains how habits affect the heart's health. Like, Bad Habits for women will cause higher heart attack rate especially for Elderly and Older Adult
+<img width="1271" height="720" alt="image" src="https://github.com/user-attachments/assets/e6d43485-4965-486b-812e-1683c3237341" />
 
-- Identify high-risk populations.
-- Compare heart attack incidence across patient groups.
-- Measure disease prevalence.
-- Generate business-oriented healthcare insights.
-
-### Key SQL Findings
-
-The SQL analysis revealed several important patterns:
-
-- Heart attack incidence was substantially higher among patients previously classified as high-risk.
-- Age and fasting blood glucose were stronger indicators than several traditional cardiovascular variables within this dataset.
-- Elderly patients with diabetes and hypertension represented one of the highest-risk segments.
-- Risk stratification enables healthcare organizations to prioritize preventive monitoring rather than relying solely on reactive treatment.
-
-### SQL Dashboard
-
-<p align="center">
-<img src="https://github.com/user-attachments/assets/5afc35e7-46bb-4daa-8066-46a47a4cef26" width="950">
-</p>
-
-### Additional SQL Analysis
-
-<p align="center">
-<img src="https://github.com/user-attachments/assets/a5e3015c-521c-4957-99e4-d3ca8294b338" width="950">
-</p>
-
----
-
-# Python Analysis
-
-Python was used for data cleaning, exploratory analysis, feature engineering, statistical testing, and visualization.
-
-## Lifestyle Dashboard
-
-<p align="center">
-<img src="https://github.com/user-attachments/assets/976d775c-f505-4655-99d9-bb2ed8ea514f" width="950">
-</p>
-
-### Key Insights
-
-- Smoking significantly increased heart attack incidence.
-- Elderly females with unhealthy lifestyle behaviors represented one of the highest-risk groups.
-- Lifestyle Score effectively differentiated patient populations.
-
----
-
-## Biological Dashboard
-
-<p align="center">
-<img src="https://github.com/user-attachments/assets/0db7ba90-abca-4523-919f-7c9c91f8a2ab" width="950">
-</p>
-
-### Key Insights
-
-- Metabolic Syndrome showed a strong association with cardiovascular outcomes.
-- Heart attack incidence exceeded 55% among elderly females diagnosed with metabolic syndrome.
-- Diabetes and obesity frequently co-occurred in high-risk patients.
-
----
-
-# Tableau Dashboard
-
-Tableau was used to build an interactive dashboard emphasizing demographic and lifestyle patterns.
-
-<p align="center">
-<img src="https://github.com/user-attachments/assets/40db52f0-0dd1-422e-91dc-29400314e155" width="950">
-</p>
-
-### Key Findings
-
-- Individuals aged 60 years and above exhibited the highest heart attack incidence.
-- Heart attack rates increased consistently across predefined risk groups.
-- High-risk patients experienced heart attack rates approaching 89%.
-
-Google Drive Version:
-
-https://drive.google.com/drive/u/1/folders/1xu7XkC9bDAchqBM4y-OontBZGSo49gDT
----
-
-# Power BI Dashboard
-
-Power BI dashboards combined demographic, clinical, and behavioral indicators into interactive visual reports.
-
-## Lifestyle Dashboard
-
-<p align="center">
-<img src="https://github.com/user-attachments/assets/e6d43485-4965-486b-812e-1683c3237341" width="950">
-</p>
-
-## Biological Dashboard
-
-<p align="center">
-<img src="https://github.com/user-attachments/assets/35319114-8c9a-4335-b273-effbec726736" width="950">
-</p>
-
-### Dashboard Highlights
-
-- Poor dietary habits accounted for nearly 59% of heart attack cases.
-- Low physical activity emerged as another major modifiable risk factor.
-- Income level demonstrated noticeable disparities in cardiovascular outcomes.
-- Sleep duration and air pollution showed comparatively weaker independent associations.
-
-Google Drive Version:
-
-https://drive.google.com/drive/u/1/folders/1xu7XkC9bDAchqBM4y-OontBZGSo49gDT
----
+### -The Biological Dashboard: this explains how the biological side affects the heart's health. Like, Analysis revealed that unhealthy diet and low physical activity are the strongest lifestyle risk factors, with poor dietary habits accounting for 59% of all heart attack cases. Surprisingly, sleep duration, stress levels, and air pollution showed minimal variation in attack rates across categories, suggesting limited independent impact. Income level also played a notable role, with 85% of cases concentrated among middle and low-income patients. Overall, dietary and physical activity interventions appear to be the most impactful targets for heart attack prevention.
+<img width="1271" height="720" alt="image" src="https://github.com/user-attachments/assets/35319114-8c9a-4335-b273-effbec726736" />
 
 # Machine Learning Interpretation
 
