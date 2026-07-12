@@ -283,8 +283,7 @@ Interactive Excel dashboards were developed to enable non-technical users to exp
 
 Google Drive Version:
 
-https://drive.google.com/drive/folders/1xu7XkC9bDAchqBM4y-OontBZGSo49gDT
-
+https://drive.google.com/drive/u/1/folders/1xu7XkC9bDAchqBM4y-OontBZGSo49gDT
 ---
 # SQL Analysis
 
@@ -366,6 +365,9 @@ Tableau was used to build an interactive dashboard emphasizing demographic and l
 - Heart attack rates increased consistently across predefined risk groups.
 - High-risk patients experienced heart attack rates approaching 89%.
 
+Google Drive Version:
+
+https://drive.google.com/drive/u/1/folders/1xu7XkC9bDAchqBM4y-OontBZGSo49gDT
 ---
 
 # Power BI Dashboard
@@ -391,6 +393,9 @@ Power BI dashboards combined demographic, clinical, and behavioral indicators in
 - Income level demonstrated noticeable disparities in cardiovascular outcomes.
 - Sleep duration and air pollution showed comparatively weaker independent associations.
 
+Google Drive Version:
+
+https://drive.google.com/drive/u/1/folders/1xu7XkC9bDAchqBM4y-OontBZGSo49gDT
 ---
 
 # Machine Learning Interpretation
