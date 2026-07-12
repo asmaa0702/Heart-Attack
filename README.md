@@ -293,12 +293,12 @@ Major analytical questions included:
 <img width="1536" height="669" alt="image" src="https://github.com/user-attachments/assets/0db7ba90-abca-4523-919f-7c9c91f8a2ab" />
 
 ***
-## Tableau Project
+## Tableau Project (till the problem with git get solved): [Link](https://drive.google.com/drive/folders/1xu7XkC9bDAchqBM4y-OontBZGSo49gDT)
 ### -The Habits Dashboard: This explains how habits affect the heart's health. Like, Individuals aged 60 years and above experienced the highest heart attack rate (64.1%). Heart attack incidence increased markedly across the predefined risk groups, reaching 88.6% among high-risk individuals.
 <img width="1279" height="638" alt="image" src="https://github.com/user-attachments/assets/40db52f0-0dd1-422e-91dc-29400314e155" />
 
 ***
-## Power BI Project
+## Power BI Project (till the problem with git get solved): [Link](https://drive.google.com/drive/folders/1xu7XkC9bDAchqBM4y-OontBZGSo49gDT)
 ### -The Habits Dashboard: This explains how habits affect the heart's health. Like, Bad Habits for women will cause higher heart attack rate especially for Elderly and Older Adult
 <img width="1271" height="720" alt="image" src="https://github.com/user-attachments/assets/e6d43485-4965-486b-812e-1683c3237341" />
 
