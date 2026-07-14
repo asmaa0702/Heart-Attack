@@ -306,6 +306,9 @@ This analysis challenged common assumptions by showing that age and blood glucos
 
 <img width="1279" height="638" alt="image" src="https://github.com/user-attachments/assets/40db52f0-0dd1-422e-91dc-29400314e155" />
 
+- The Biological Dashboard: this explains how the biological side affects the heart's health. Like,LDL, HDL, BP Systolic, BP Diostolic don't affect the target
+<img width="1245" height="740" alt="image" src="https://github.com/user-attachments/assets/c166ebea-7975-4dc9-9824-4617871a7331" />
+
 ***
 ## Power BI Project (till the problem with git get solved): [Link](https://drive.google.com/drive/folders/1xu7XkC9bDAchqBM4y-OontBZGSo49gDT)
 - The Habits Dashboard: This explains how habits affect the heart's health. Like, Bad Habits for women will cause higher heart attack rate especially for Elderly and Older Adult
